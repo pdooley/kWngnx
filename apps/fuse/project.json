@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/fuse/src",
-  "prefix": "fuse"
+  "prefix": "fuse",
   "targets":
   {
     "build":
@@ -147,5 +147,5 @@
       }
     }
   },
-  "root": "",
+  "root": ""
 }
