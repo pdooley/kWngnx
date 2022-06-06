@@ -2,7 +2,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
-    "fuse": "apps/fuse",
+    "fury": "apps/fury",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "dwPage": "libs/demo/page",
