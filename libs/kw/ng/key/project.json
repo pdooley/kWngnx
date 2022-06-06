@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/kw/ng/key",
+  "sourceRoot": "libs/kw/ng/key/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/kw/ng/key/src/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/kw/ng/key/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/kw/ng/key"]
+    }
+  }
+}

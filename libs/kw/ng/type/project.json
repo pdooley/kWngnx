@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/kw/ng/typev",
+  "sourceRoot": "libs/kw/ng/srvc/type",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/kw/ng/type/src/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/kw/ng/type/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/kw/ng/type"]
+    }
+  }
+}

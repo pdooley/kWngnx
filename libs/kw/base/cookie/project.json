@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/kw/base/cookie",
+  "sourceRoot": "libs/kw/base/cookie/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/kw/base/cookie/src/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/kw/base/cookie/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/kw/base/cookie"]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "web": "apps/web",
+    "web-e2e": "apps/web-e2e",
+    "dwPage": "libs/demo/page",
+    "kw-base-bs": "libs/kw/base/bs",
+    "kw-base-class": "libs/kw/base/class",
+    "kw-base-cookie": "libs/kw/base/cookie",
+    "kw-base-core": "libs/kw/base/core",
+    "kw-base-ctrl": "libs/kw/base/ctrl",
+    "kw-base-http": "libs/kw/base/http",
+    "kw-base-key": "libs/kw/base/key",
+    "kw-base-state": "libs/kw/base/state",
+    "kw-base-type": "libs/kw/base/type",
+    "kw-ng-bs": "libs/kw/ng/bs,",
+    "kw-ng-class": "libs/kw/ng/class,",
+    "kw-ng-core": "libs/kw/ng/core,",
+    "kw-ng-http": "libs/kw/ng/http,",
+    "kw-ng-key": "libs/kw/ng/key,",
+    "kw-ng-page": "libs/kw/ng/page,",
+    "kw-ng-srvc": "libs/kw/ng/srvc,",
+    "kw-ng-state": "libs/kw/ng/state,",
+    "kw-ng-type": "libs/kw/ng/type,"
+  }
+}
