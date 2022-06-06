@@ -2,21 +2,25 @@
   "projectType": "application",
   "sourceRoot": "apps/fury/src",
   "prefix": "fury",
-  "targets": {
-    "build": {
+  "targets":
+  {
+    "build":
+    {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
-      "options": {
-      "outputPath": "dist/apps/fury",
-      "index": "apps/fury/src/index.html",
-      "main": "apps/fury/src/main.ts",
-      "tsConfig": "apps/fury/src/tsconfig.app.json",
-      "polyfills": "apps/fury/src/polyfills.ts",
-      "stylePreprocessorOptions": {
-        "includePaths": [
-          "apps/fury/src/styles",
-          "node_modules"
-        ]
+      "options":
+      {
+        "outputPath": "dist/apps/fury",
+        "index": "apps/fury/src/index.html",
+        "main": "apps/fury/src/main.ts",
+        "tsConfig": "apps/fury/src/tsconfig.app.json",
+        "polyfills": "apps/fury/src/polyfills.ts",
+        "stylePreprocessorOptions": {
+          "includePaths": [
+            "apps/fury/src/styles",
+            "node_modules"
+         ]
+        }
       },
       "assets": [
         "apps/fury/src/assets",
@@ -69,87 +73,100 @@
     },
     "configurations":
     {
-      "production": {
-        "budgets": [
+      "production":
+      {
+        "budgets":
+        [
           {
             "type": "initial",
             "maximumWarning": "500kb",
             "maximumError": "1mb"
           },
-            {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "25kb"
-                }
-              ],
-              "optimization": true,
-              "sourceMap": false,
-              "namedChunks": false,
-              "extractLicenses": true,
-              "vendorChunk": false,
-              "buildOptimizer": true,
-              "fileReplacements": [
-                {
-                  "replace": "apps/fury/src/environments/environment.ts",
-                  "with": "apps/fury/src/environments/environment.prod.ts"
-                }
-          ],
-          "outputHashing": "all"
-            },
-        "development": {
-          "buildOptimizer": false,
-          "optimization": false,
-          "vendorChunk": true,
-          "extractLicenses": false,
-          "sourceMap": true,
-          "namedChunks": true
-            }
+          {
+            "type": "anyComponentStyle",
+            "maximumWarning": "25kb"
+          }
+        ],
+        "optimization": true,
+        "sourceMap": false,
+        "namedChunks": false,
+        "extractLicenses": true,
+        "vendorChunk": false,
+        "buildOptimizer": true,
+        "fileReplacements":
+        [
+          {
+            "replace": "apps/fury/src/environments/environment.ts",
+            "with": "apps/fury/src/environments/environment.prod.ts"
+          }
+        ],
+        "outputHashing": "all"
+      },
+      "development":
+      {
+        "buildOptimizer": false,
+        "optimization": false,
+        "vendorChunk": true,
+        "extractLicenses": false,
+        "sourceMap": true,
+        "namedChunks": true
       },
       "defaultConfiguration": "production"
-        },
-    "serve": {
+    },
+    "serve":
+    {
       "executor": "@angular-devkit/build-angular:dev-server",
-      "configurations": {
-        "production": {
-          "browserTarget": "web:build:production"
+      "configurations":
+      {
+        "production":
+        {
+          "browserTarget": "fury:build:production"
         },
-        "development": {
-          "browserTarget": "web:build:development"
+        "development":
+        {
+          "browserTarget": "fury:build:development"
         }
       },
       "defaultConfiguration": "development"
     },
-        "extract-i18n": {
+    "extract-i18n":
+    {
       "executor": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "fury:build"
-          }
-        },
-     "lint": {
+      "options":
+      {
+        "browserTarget": "fury:build"
+      }
+    },
+    "lint":
+    {
       "executor": "@nrwl/linter:eslint",
-      "options": {
+      "options":
+      {
         "lintFilePatterns": ["apps/web/src/**/*.ts", "apps/web/src/**/*.html"]
       }
-       "test": {
+    },
+    "test":
+    {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/fury"],
-          "options": {
-            "main": "apps/fury/src/test.ts",
-            "karmaConfig": "./karma.conf.js",
-            "polyfills": "apps/fury/src/polyfills.ts",
-            "tsConfig": "apps/fury/src/tsconfig.spec.json",
-            "scripts": [],
-            "styles": [
-              "apps/fury/src/styles.scss"
-            ],
-            "assets": [
-              "apps/fury/src/assets",
-              "apps/fury/src/favicon.ico",
-              "apps/fury/src/manifest.json",
-              "apps/fury/src/manifest.json"
-            ]
-          }
-        }
+      "options":
+      {
+        "main": "apps/fury/src/test.ts",
+        "karmaConfig": "./karma.conf.js",
+        "polyfills": "apps/fury/src/polyfills.ts",
+        "tsConfig": "apps/fury/src/tsconfig.spec.json",
+        "scripts": [],
+        "styles": [
+          "apps/fury/src/styles.scss"
+        ],
+        "assets": [
+          "apps/fury/src/assets",
+          "apps/fury/src/favicon.ico",
+          "apps/fury/src/manifest.json",
+          "apps/fury/src/manifest.json"
+        ]
       }
+    }
   },
   "tags": []
 }
