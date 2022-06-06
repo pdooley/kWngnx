@@ -15,14 +15,14 @@
     "kw-base-key": "libs/kw/base/key",
     "kw-base-state": "libs/kw/base/state",
     "kw-base-type": "libs/kw/base/type",
-    "kw-ng-bs": "libs/kw/ng/bs,",
-    "kw-ng-class": "libs/kw/ng/class,",
-    "kw-ng-core": "libs/kw/ng/core,",
-    "kw-ng-http": "libs/kw/ng/http,",
-    "kw-ng-key": "libs/kw/ng/key,",
-    "kw-ng-page": "libs/kw/ng/page,",
-    "kw-ng-srvc": "libs/kw/ng/srvc,",
-    "kw-ng-state": "libs/kw/ng/state,",
-    "kw-ng-type": "libs/kw/ng/type,"
+    "kw-ng-bs": "libs/kw/ng/bs",
+    "kw-ng-class": "libs/kw/ng/class",
+    "kw-ng-core": "libs/kw/ng/core",
+    "kw-ng-http": "libs/kw/ng/http",
+    "kw-ng-key": "libs/kw/ng/key",
+    "kw-ng-page": "libs/kw/ng/page",
+    "kw-ng-srvc": "libs/kw/ng/srvc",
+    "kw-ng-state": "libs/kw/ng/state",
+    "kw-ng-type": "libs/kw/ng/type"
   }
 }

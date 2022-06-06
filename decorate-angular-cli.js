@@ -1,4 +1,4 @@
-6/**
+/**
  * This file decorates the Angular CLI with the Nx CLI to enable features such as computation caching
  * and faster execution of tasks.
  *

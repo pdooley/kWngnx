@@ -1,16 +1,11 @@
 {
+  "root": true,
   "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
-        "no-restricted-syntax": [
-          "error",
-          {
-            "message": "The use of the @Entity(...) decorator is disallowed. Please use one of the @BaseVsolvEntity(...) or @VsolvEntity(...) decorators.",
-            "selector": "CallExpression[callee.name='Entity']"
-          }
-        ],
         "@nrwl/nx/enforce-module-boundaries": [
           "error",
           {
@@ -29,38 +24,12 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nrwl/nx/typescript"],
-      "rules": {
-        "@typescript-eslint/no-explicit-any": ["warn"],
-        "@typescript-eslint/no-unused-vars": [
-          "warn",
-          {
-            "ignoreRestSiblings": true,
-            "varsIgnorePattern": "^_.*",
-            "argsIgnorePattern": "^_.*"
-          }
-        ]
-      }
+      "rules": {}
     },
     {
       "files": ["*.js", "*.jsx"],
       "extends": ["plugin:@nrwl/nx/javascript"],
       "rules": {}
-    },
-    {
-      "files": ["*.html"],
-      "extends": ["plugin:@nrwl/nx/angular-template"],
-      "rules": {
-        "@angular-eslint/template/no-negated-async": ["off"]
-      }
-    },
-    {
-      "files": ["*.spec.ts", "*.int.spec.ts"],
-      "rules": {
-        "@typescript-eslint/no-explicit-any": ["off"],
-        "@nrwl/nx/enforce-module-boundaries": ["off"]
-      }
     }
-  ],
-  "plugins": ["@nrwl/nx", "prettier", "@typescript-eslint"],
-  "root": true
+  ]
 }
