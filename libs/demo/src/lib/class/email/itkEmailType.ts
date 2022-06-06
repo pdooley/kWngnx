@@ -15,7 +15,7 @@
 // @formatter:on
 
 
-export class itkEmailType
+export interface itkEmailType
 {
 	sEmail: string;
 }

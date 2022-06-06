@@ -15,7 +15,7 @@
 import {Component}				from '@angular/core';
 
 import { itkEmailsVal }        from "../../state/emails/itkEmailsVal";
-import { kwNgBaseKey }          from "../../../kwNg/key/kwNgBaseKey";
+import { kwNgBaseKey }          from "@kw/ng/key";
 // @formatter:on
 
 

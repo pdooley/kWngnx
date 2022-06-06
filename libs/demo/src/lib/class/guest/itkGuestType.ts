@@ -15,7 +15,7 @@
 // @formatter:on
 
 
-export class itkGuestType
+export interface itkGuestType
 {
 	sEmail: string;
 	sPhone: string;

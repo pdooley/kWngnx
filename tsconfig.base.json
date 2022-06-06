@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dwPage":["libs/demo/page"],
+      "@dw":["libs/demo/src/index.ts"],
       "@kw/base/bs":["libs/kw/base/bs/src/index.ts"],
       "@kw/base/class":["libs/kw/base/class/src/index.ts"],
       "@kw/base/cookie":["libs/kw/base/cookie/src/index.ts"],

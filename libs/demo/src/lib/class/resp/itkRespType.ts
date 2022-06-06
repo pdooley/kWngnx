@@ -11,7 +11,7 @@
  *
  **********************************************************************/
 
-export class itkRespType
+export interface itkRespType
 {
 	sResp?: string;
 	sPhone?: string;

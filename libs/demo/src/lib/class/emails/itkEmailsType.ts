@@ -16,7 +16,7 @@ import { itkEmailType }			from "../email/itkEmailType";
 // @formatter:on
 
 
-export class itkEmailsType
+export interface itkEmailsType
 {
 	emails: itkEmailType[];
 }
