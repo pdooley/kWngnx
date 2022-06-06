@@ -152,6 +152,7 @@
       "options":
       {
         "main": "apps/fury/src/test.ts",
+        "jestConfig": "apps/fury/jest.config.ts",
         "karmaConfig": "./karma.conf.js",
         "polyfills": "apps/fury/src/polyfills.ts",
         "tsConfig": "apps/fury/src/tsconfig.spec.json",
