@@ -25,15 +25,15 @@
       "@kw/base/key":["libs/kw/base/key/src/index.ts"],
       "@kw/base/state":["libs/kw/base/state/src/index.ts"],
       "@kw/base/type":["libs/kw/base/type/src/index.ts"],
-      "@kw/ng/bs":["libs/kw/ng/bs"],
-      "@kw/ng/class":["libs/kw/ng/class"],
-      "@kw/ng/core":["libs/kw/ng/core"],
-      "@kw/ng/http":["libs/kw/ng/http"],
-      "@kw/ng/key":["libs/kw/ng/key"],
-      "@kw/ng/page":["libs/kw/ng/page"],
-      "@kw/ng/srvc":["libs/kw/ng/srvc"],
-      "@kw/ng/state":["libs/kw/ng/state"],
-      "@kw/ng/type":["libs/kw/ng/type"]
+      "@kw/ng/bs":["libs/kw/ng/bs/src/index.ts"],
+      "@kw/ng/class":["libs/kw/ng/class/src/index.ts"],
+      "@kw/ng/core":["libs/kw/ng/core/src/index.ts"],
+      "@kw/ng/http":["libs/kw/ng/http/src/index.ts"],
+      "@kw/ng/key":["libs/kw/ng/key/src/index.ts"],
+      "@kw/ng/page":["libs/kw/ng/page/src/index.ts"],
+      "@kw/ng/srvc":["libs/kw/ng/srvc/src/index.ts"],
+      "@kw/ng/state":["libs/kw/ng/state/src/index.ts"],
+      "@kw/ng/type":["libs/kw/ng/type/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
