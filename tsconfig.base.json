@@ -28,7 +28,7 @@
       "@kw/ng/page":["libs/kw/ng/page"],
       "@kw/ng/srvc":["libs/kw/ng/srvc"],
       "@kw/ng/state":["libs/kw/ng/state"],
-      "@kw/ng/type":["libs/kw/ng/type"],
+      "@kw/ng/type":["libs/kw/ng/type"]
     }
   },
   "rootDir": ".",
@@ -36,5 +36,5 @@
   "skipLibCheck": true,
   "sourceMap": true,
   "strictPropertyInitialization": false,
-  "target": ["es2015"],
-  }
+  "target": ["es2015"]
+}
