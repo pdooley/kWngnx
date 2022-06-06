@@ -1,9 +1,9 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "outDir": "./out-tsc/app",
+        "outDir": "../../dist/out-tsc",
         "types": []
+        "target": "ES2017"
     },
     "files": [
         "src/main.ts",
@@ -11,5 +11,7 @@
     ],
     "include": [
         "src/**/*.d.ts"
-    ]
+    ],
+    "exclude": ["**/*.test.ts", "**/*.spec.ts", "jest.config.ts"]
+
 }
