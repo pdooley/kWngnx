@@ -5,7 +5,7 @@ import { LayoutComponent } from '@fury/ng/layout';
 const routes: Routes = [
   {
     path: 'login',
-    loadChildren: () => import('./pages/authentication/login/login.module').then(m => m.LoginModule),
+    loadChildren: () => import('@fury/ng/pages/src/lib/authentication/login/login.module').then(m => m.LoginModule),
   },
   {
     path: 'register',

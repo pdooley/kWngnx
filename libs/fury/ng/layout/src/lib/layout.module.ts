@@ -1,16 +1,16 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { BackdropModule } from '../../@fury/shared/backdrop/backdrop.module';
-import { LoadingIndicatorModule } from '../../@fury/shared/loading-indicator/loading-indicator.module';
-import { MaterialModule } from '../../@fury/shared/material-components.module';
+import { BackdropModule } from '@fury/core';
+import { LoadingIndicatorModule } from '@fury/core';
+import { MaterialModule } from '@fury/core';
 import { FooterModule } from './footer/footer.module';
 import { LayoutComponent } from './layout.component';
 import { QuickpanelModule } from './quickpanel/quickpanel.module';
 import { SidenavModule } from './sidenav/sidenav.module';
 import { ToolbarModule } from './toolbar/toolbar.module';
-import { ConfigPanelModule } from './src/lib/config-panel/config-panel.module';
-import { FurySharedModule } from '../../@fury/fury-shared.module';
+import { ConfigPanelModule } from './config-panel/config-panel.module';
+import { FurySharedModule } from '@fury/core';
 import { NavigationModule } from './navigation/navigation.module';
 
 @NgModule({
