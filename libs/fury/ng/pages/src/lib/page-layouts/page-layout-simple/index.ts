@@ -1,7 +1,7 @@
 
-page-layout-simple-routing.module.ts
+page-layout-simple-routing.module';
 page-layout-simple.component.html
 page-layout-simple.component.scss
-page-layout-simple.component.spec.ts
-page-layout-simple.component.ts
-page-layout-simple.module.ts
+page-layout-simple.component.spec';
+page-layout-simple.component';
+page-layout-simple.module';

@@ -1,4 +1,3 @@
-donut-chart-widget-options.interface.ts
-donut-chart-widget.component.ts
-donut-chart-widget.module.ts
-
+export * from './donut-chart-widget-options.interface';
+export * from './donut-chart-widget.component';
+export * from './donut-chart-widget.module';

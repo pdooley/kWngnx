@@ -1,3 +1,3 @@
-sales-summary-widget-options.interface.ts
-sales-summary-widget.component.ts
-sales-summary-widget.module.ts
+export * from './sales-summary-widget-options.interface';
+export * from './sales-summary-widget.component';
+export * from './sales-summary-widget.module';

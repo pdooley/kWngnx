@@ -1,2 +1,2 @@
-quick-info-widget.component.ts
-quick-info-widget.module.ts
+export * from './quick-info-widget.component';
+export * from './quick-info-widget.module';

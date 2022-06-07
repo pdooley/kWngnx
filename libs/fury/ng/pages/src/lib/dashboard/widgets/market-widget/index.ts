@@ -1,2 +1,2 @@
-market-widget.component.ts
-market-widget.module.ts
+export * from './market-widget.component';
+export * from './market-widget.module';

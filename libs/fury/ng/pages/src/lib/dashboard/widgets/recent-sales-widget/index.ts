@@ -1,4 +1,4 @@
-recent-sales-widget-options.interface.ts
-recent-sales-widget-table
-recent-sales-widget.component.ts
-recent-sales-widget.module.ts
+export * from './recent-sales-widget-options.interface';
+export * from './recent-sales-widget-table';
+export * from './recent-sales-widget.component';
+export * from './recent-sales-widget.module';

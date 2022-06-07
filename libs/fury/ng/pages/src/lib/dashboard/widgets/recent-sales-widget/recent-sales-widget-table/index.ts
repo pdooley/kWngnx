@@ -1,1 +1,1 @@
-recent-sales-widget-table.component.ts
+export * from './recent-sales-widget-table.component';

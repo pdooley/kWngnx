@@ -1,4 +1,3 @@
-bar-chart-widget-options.interface.ts
-bar-chart-widget.component.ts
-bar-chart-widget.module.ts
-
+export * from './bar-chart-widget-options.interface';
+export * from './bar-chart-widget.component';
+export * from './bar-chart-widget.module';

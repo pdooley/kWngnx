@@ -1,11 +1,11 @@
-advanced-pie-chart-widget
-audience-overview-widget
-bar-chart-widget
-donut-chart-widget
-line-chart-widget
-maps-widget
-market-widget
-quick-info-widget
-realtime-users-widget
-recent-sales-widget
-sales-summary-widget
+export * from './advanced-pie-chart-widget';
+export * from './audience-overview-widget';
+export * from './bar-chart-widget';
+export * from './donut-chart-widget';
+export * from './line-chart-widget';
+export * from './maps-widget';
+export * from './market-widget';
+export * from './quick-info-widget';
+export * from './realtime-users-widget';
+export * from './recent-sales-widget';
+export * from './sales-summary-widget';

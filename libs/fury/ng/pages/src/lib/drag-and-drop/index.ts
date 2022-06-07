@@ -1,6 +1,4 @@
-export * from './drag-and-drop-routing.module.ts
-export * from './drag-and-drop.component.html
-export * from './drag-and-drop.component.scss
-export * from './drag-and-drop.component.ts
-export * from './drag-and-drop.module.ts
+export * from './drag-and-drop-routing.module';
+export * from './drag-and-drop.component';
+export * from './drag-and-drop.module';
 

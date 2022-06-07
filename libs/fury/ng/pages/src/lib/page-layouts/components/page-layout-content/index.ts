@@ -1,6 +1,6 @@
 
 page-layout-demo-content.component.html
 page-layout-demo-content.component.scss
-page-layout-demo-content.component.spec.ts
-page-layout-demo-content.component.ts
-page-layout-demo-content.module.ts
+page-layout-demo-content.component.spec';
+page-layout-demo-content.component';
+page-layout-demo-content.module';
