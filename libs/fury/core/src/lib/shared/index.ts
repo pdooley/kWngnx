@@ -6,7 +6,7 @@ export * from './click-outside';
 export * from './component-destroyed';
 export * from './highlightjs';
 export * from './list';
-export * from './list.animation';';
+export * from './list.animation';
 export * from './loading-indicator';
 export * from './loading-overlay';
 export * from './material-components.module';

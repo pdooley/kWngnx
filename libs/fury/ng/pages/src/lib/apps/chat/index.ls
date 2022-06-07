@@ -1,0 +1,9 @@
+chat-routing.module.ts
+chat.component.html
+chat.component.scss
+chat.component.theme.scss
+chat.component.ts
+chat.demo.ts
+chat.model.ts
+chat.module.ts
+index.ls
