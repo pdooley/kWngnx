@@ -1,6 +1,2 @@
-footer.component.html
-footer.component.scss
-footer.component.theme.scss
-footer.component.ts
-footer.module.ts
-index.ts
+export * from './footer.component';
+export * from './footer.module';

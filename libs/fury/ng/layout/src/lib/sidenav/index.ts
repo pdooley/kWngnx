@@ -1,9 +1,5 @@
-index.ts
-sidenav-item
-sidenav-state.enum.ts
-sidenav.component.html
-sidenav.component.scss
-sidenav.component.theme.scss
-sidenav.component.ts
-sidenav.module.ts
-sidenav.service.ts
+export * from './sidenav-item';
+export * from './sidenav-state.enum';
+export * from './sidenav.component';
+export * from './sidenav.module';
+export * from './sidenav.service';

@@ -1,5 +1,2 @@
-index.ts
-quickpanel.component.html
-quickpanel.component.scss
-quickpanel.component.ts
-quickpanel.module.ts
+export * from './quickpanel.component';
+export * from './quickpanel.module';

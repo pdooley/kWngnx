@@ -1,4 +1,2 @@
-index.ts
-toolbar-search.component.html
-toolbar-search.component.scss
-toolbar-search.component.ts
+export * from './index';
+export * from './toolbar-search.component';

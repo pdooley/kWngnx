@@ -1,12 +1,9 @@
-config-panel
-footer
-index.ts
-layout.component.html
-layout.component.scss
-layout.component.ts
-layout.module.ts
-layout.service.ts
-navigation
-quickpanel
-sidenav
-toolbar
+export * from './config-panel';
+export * from './footer';
+export * from './navigation';
+export * from './quickpanel';
+export * from './sidenav';
+export * from './toolbar';
+export * from './layout.component';
+export * from './layout.module';
+export * from './layout.service';

@@ -1,4 +1,1 @@
-index.ts
-toolbar-user.component.html
-toolbar-user.component.scss
-toolbar-user.component.ts
+export * from './toolbar-user.component';

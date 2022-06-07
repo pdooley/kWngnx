@@ -1,4 +1,1 @@
-index.ts
-toolbar-notifications.component.html
-toolbar-notifications.component.scss
-toolbar-notifications.component.ts
+export * from './toolbar-notifications.component';

@@ -1,13 +1,8 @@
-index.ts
-toolbar-fullscreen-toggle
-toolbar-notifications
-toolbar-quickpanel-toggle
-toolbar-search
-toolbar-search-bar
-toolbar-sidenav-mobile-toggle
-toolbar-user
-toolbar.component.html
-toolbar.component.scss
-toolbar.component.theme.scss
-toolbar.component.ts
-toolbar.module.ts
+export * from './toolbar-notifications';
+export * from './toolbar-quickpanel-toggle';
+export * from './toolbar-search';
+export * from './toolbar-search-bar';
+export * from './toolbar-sidenav-mobile-toggle';
+export * from './toolbar-user';
+export * from './toolbar.component';
+export * from './toolbar.module';
