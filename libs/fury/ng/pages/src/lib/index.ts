@@ -1,5 +1,5 @@
 export * from './apps';
-export * from '../../authentication';
+export * from './authentication';
 export * from './blank';
 export * from './coming-soon';
 export * from './components';
