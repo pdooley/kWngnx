@@ -26,7 +26,7 @@ export class AppComponent {
               private splashScreenService: SplashScreenService) {
     this.route.queryParamMap.pipe(
       filter(queryParamMap => queryParamMap.has('style'))
-    ).subscribe(queryParamMap => this.themeService.setStyle(queryParamMap.get('style')));
+    ).subscribe(queryParamMap => this.themeService.setStyle(queryParamMap.get('style')!));
 
     this.iconRegistry.setDefaultFontSetClass('material-icons-outlined');
     this.themeService.theme$.subscribe(theme => {

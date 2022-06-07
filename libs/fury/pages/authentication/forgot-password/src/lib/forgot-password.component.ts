@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { fadeInUpAnimation } from '../../../../@fury/animations/fade-in-up.animation';
+import { fadeInUpAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-forgot-password',

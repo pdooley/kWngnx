@@ -5,19 +5,19 @@ import { LayoutComponent } from '@fury/ng/layout';
 const routes: Routes = [
   {
     path: 'login',
-    loadChildren: () => import('@fury/ng/pages/src/lib/authentication/login/login.module').then(m => m.LoginModule),
+    loadChildren: () => import('@fury/pages/auth/login/login.module').then(m => m.LoginModule),
   },
   {
     path: 'register',
-    loadChildren: () => import('./pages/authentication/register/register.module').then(m => m.RegisterModule),
+    loadChildren: () => import('@fury/pages/auth/register/register.module').then(m => m.RegisterModule),
   },
   {
     path: 'forgot-password',
-    loadChildren: () => import('./pages/authentication/forgot-password/forgot-password.module').then(m => m.ForgotPasswordModule),
+    loadChildren: () => import('@fury/pages/auth/forgot-password/forgot-password.module').then(m => m.ForgotPasswordModule),
   },
   {
     path: 'coming-soon',
-    loadChildren: () => import('./pages/coming-soon/coming-soon.module').then(m => m.ComingSoonModule),
+    loadChildren: () => import('@fury/pages/coming-soon/coming-soon.module').then(m => m.ComingSoonModule),
   },
   {
     path: '',

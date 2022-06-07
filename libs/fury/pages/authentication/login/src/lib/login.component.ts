@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
-import { fadeInUpAnimation } from '../../../../@fury/animations/fade-in-up.animation';
+import { fadeInUpAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-login',
