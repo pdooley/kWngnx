@@ -1,3 +1,3 @@
-chart-widget-defaults.ts
-chart-widget-options.interface.ts
-index.ts
+export * from './chart-widget-defaults';
+export * from './chart-widget-options.interface';
+

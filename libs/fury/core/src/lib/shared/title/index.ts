@@ -1,4 +1,2 @@
-index.ts
-title.directive.theme.scss
-title.directive.ts
-title.module.ts
+export * from './title.directive';
+export * from './title.module';

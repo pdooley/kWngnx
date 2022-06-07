@@ -1,3 +1,3 @@
-click-outside.directive.ts
-click-outside.module.ts
-index.ts
+export * from './click-outside.directive';
+export * from './click-outside.module';
+

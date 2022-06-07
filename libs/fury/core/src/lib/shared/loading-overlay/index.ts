@@ -1,5 +1,2 @@
-index.ts
-loading-overlay.component.html
-loading-overlay.component.scss
-loading-overlay.component.ts
-loading-overlay.module.ts
+export * from './loading-overlay.component';
+export * from './loading-overlay.module';

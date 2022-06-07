@@ -1,6 +1,3 @@
-card.component.html
-card.component.scss
-card.component.theme.scss
-card.component.ts
-card.module.ts
-index.ts
+export * from './card.component';
+export * from './card.module';
+

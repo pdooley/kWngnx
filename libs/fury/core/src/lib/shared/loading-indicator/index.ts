@@ -1,7 +1,4 @@
-index.ts
-loading-indicator.component.html
-loading-indicator.component.scss
-loading-indicator.component.ts
-loading-indicator.module.ts
-pending-interceptor.module.ts
-pending-interceptor.service.ts
+export * from './loading-indicator.component';
+export * from './loading-indicator.module';
+export * from './pending-interceptor.module';
+export * from './pending-interceptor.service';

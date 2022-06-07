@@ -1,18 +1,17 @@
-backdrop
-breadcrumbs
-card
-chart-widget
-click-outside
-component-destroyed.ts
-highlightjs
-index.ts
-list
-list.animation.ts
-loading-indicator
-loading-overlay
-material-components.module.ts
-page
-page-layout
-scrollbar
-sidebar
-title
+export * from './backdrop';
+export * from './breadcrumbs';
+export * from './card';
+export * from './chart-widget';
+export * from './click-outside';
+export * from './component-destroyed';
+export * from './highlightjs';
+export * from './list';
+export * from './list.animation';';
+export * from './loading-indicator';
+export * from './loading-overlay';
+export * from './material-components.module';
+export * from './page';
+export * from './page-layout';
+export * from './scrollbar';
+export * from './sidebar';
+export * from './title';

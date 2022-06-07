@@ -1,5 +1,3 @@
-index.ts
-scrollbar-options.ts
-scrollbar.component.scss
-scrollbar.component.ts
-scrollbar.module.ts
+export * from './scrollbar-options';
+export * from './scrollbar.component';
+export * from './scrollbar.module';

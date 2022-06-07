@@ -1,4 +1,2 @@
-backdrop.directive.theme.scss
-backdrop.directive.ts
-backdrop.module.ts
-
+export * from './backdrop.directive';
+export * from './backdrop.module';
