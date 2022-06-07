@@ -1,8 +1,6 @@
-all-in-one-table-routing.module';
-all-in-one-table.component.html
-all-in-one-table.component.scss
-all-in-one-table.component';
-all-in-one-table.demo';
-all-in-one-table.module';
-customer-create-update
+export * from './all-in-one-table-routing.module';
+export * from './all-in-one-table.component';
+export * from './all-in-one-table.demo';
+export * from './all-in-one-table.module';
+export * from './customer-create-update';
 

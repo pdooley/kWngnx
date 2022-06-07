@@ -1,2 +1,2 @@
 
-page-layout-content
+export * from './page-layout-content';

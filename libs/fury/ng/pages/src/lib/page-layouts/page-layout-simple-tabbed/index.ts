@@ -1,7 +1,3 @@
-
-page-layout-simple-tabbed-routing.module';
-page-layout-simple-tabbed.component.html
-page-layout-simple-tabbed.component.scss
-page-layout-simple-tabbed.component.spec';
-page-layout-simple-tabbed.component';
-page-layout-simple-tabbed.module';
+export * from './page-layout-simple-tabbed-routing.module';
+export * from './page-layout-simple-tabbed.component';
+export * from './page-layout-simple-tabbed.module';

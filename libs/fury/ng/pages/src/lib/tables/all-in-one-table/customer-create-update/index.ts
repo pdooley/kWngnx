@@ -1,6 +1,4 @@
-customer-create-update.component.html
-customer-create-update.component.scss
-customer-create-update.component';
-customer-create-update.module';
-customer.model';
+export * from './customer-create-update.component';
+export * from './customer-create-update.module';
+export * from './customer.model';
 

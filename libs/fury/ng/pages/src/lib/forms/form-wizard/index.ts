@@ -1,7 +1,4 @@
-form-wizard-routing.module';
-form-wizard.component.html
-form-wizard.component.scss
-form-wizard.component.theme.scss
-form-wizard.component';
-form-wizard.module';
+export * from './form-wizard-routing.module';
+export * from './form-wizard.component';
+export * from './form-wizard.module';
 

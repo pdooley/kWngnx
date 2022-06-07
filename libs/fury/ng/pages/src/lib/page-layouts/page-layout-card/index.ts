@@ -1,7 +1,3 @@
-
-page-layout-card-routing.module';
-page-layout-card.component.html
-page-layout-card.component.scss
-page-layout-card.component.spec';
-page-layout-card.component';
-page-layout-card.module';
+export * from './page-layout-card-routing.module';
+export * from './page-layout-card.component';
+export * from './page-layout-card.module';
