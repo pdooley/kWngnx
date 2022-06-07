@@ -1,4 +1,4 @@
-index.ts
+
 page-layout-simple-routing.module.ts
 page-layout-simple.component.html
 page-layout-simple.component.scss

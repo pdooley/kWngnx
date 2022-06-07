@@ -1,2 +1,2 @@
-google-maps
-index.ts
+export * from './google-maps
+

@@ -2,7 +2,6 @@ advanced-pie-chart-widget
 audience-overview-widget
 bar-chart-widget
 donut-chart-widget
-index.ts
 line-chart-widget
 maps-widget
 market-widget

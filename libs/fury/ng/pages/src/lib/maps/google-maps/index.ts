@@ -1,6 +1,6 @@
-google-maps-routing.module.ts
-google-maps.component.html
-google-maps.component.scss
-google-maps.component.ts
-google-maps.module.ts
-index.ts
+export * from './google-maps-routing.module.ts
+export * from './google-maps.component.html
+export * from './google-maps.component.scss
+export * from './google-maps.component.ts
+export * from './google-maps.module.ts
+

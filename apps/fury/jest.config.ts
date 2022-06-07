@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'fury-app',
+  displayName: 'fury_demo',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
