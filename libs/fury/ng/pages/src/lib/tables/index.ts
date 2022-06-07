@@ -1,2 +1,2 @@
-all-in-one-table
+export * from './all-in-one-table
 

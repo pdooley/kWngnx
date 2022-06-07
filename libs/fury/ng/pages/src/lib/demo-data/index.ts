@@ -1,3 +1,3 @@
-inbox-demo-data.ts
-
-widget-demo-data.ts
+export * from './inbox-demo-data.ts
+export * from './
+export * from './widget-demo-data.ts
