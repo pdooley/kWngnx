@@ -17,8 +17,8 @@ import { kwMsg }            from "@kw/base/class";
 
 import { kwCtrlData }       from "./kwCtrlData";
 import { kwHttpMsg }        from "../../kwNg/http/kwHttpMsg";
-import { kwStDataList }     from "@kwState/kwStDataList";
-import { kwStMsg }          from "@kwState/kwStMsg";
+import { kwStDataList }     from "@kw/base/state";
+import { kwStMsg }          from "@kw/base/state";
 
 export class kwCtrlDataList extends kwCtrlData
 {

@@ -27,7 +27,7 @@ import { kwBSAttrsVal }         from "@kw/ng/bs";
 import { kwBSDispVal }          from "@kw/ng/bs";
 import { kwBSFltrVal }          from "@kw/ng/bs";
 import { kwBSRsltVal }           from "@kw/ng/bs";
-import { kwCtrlCompSt }         from "@kwCtrl/kwCtrlCompSt";
+import { kwCtrlCompSt }         from "@kw/base/ctrl";
 import { kwLog }                from "@kw/kwLog";
 import { kwNgStDataList }       from "@kw/ng/class";
 

@@ -2,7 +2,7 @@
 import { Component }            from '@angular/core';
 
 import { kwNgCtrlView }         from "@kwNgClass/kwNgCtrlView";
-import { kwViewsList }          from "@kwNgState/views/kwViewsList";
+import { kwViewsList }          from "@kw/ng/state";
 
 import { itkGuestView }          from "./itkGuestView";
 

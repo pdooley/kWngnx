@@ -14,7 +14,7 @@
 
 import { Component }         from '@angular/core';
 
-import { kwViewsList }       from "@kwNgState/views/kwViewsList";
+import { kwViewsList }       from "@kw/ng/state";
 import { kwNgCtrlSt }		 from "@kw/ng/class";
 
 import { kwSigninView }      from "./kwSigninView";

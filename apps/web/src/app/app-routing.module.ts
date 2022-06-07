@@ -2,31 +2,31 @@ import { NgModule }             from '@angular/core';
 import { RouterModule }         from '@angular/router';
 import { Routes }               from '@angular/router';
 
-import { LayoutComponent } from './layout/layout.component';
+import { LayoutComponent }      from './layout/layout.component';
 
-import { kwLogin }              from '@kwNgPage/login/kwLogin';
-import { kwLogout}              from '@kwNgPage/logout/kwLogout';
+import { kwLogin }              from '@kw/ng/page';
+import { kwLogout}              from '@kw/ng/page';
 
-import { dwpAct }               from "@dwPage/act/dwpAct";
-import { dwpBinder }            from '@dwPage/binder/dwpBinder';
-import { dwpClose }             from '@dwPage/close/dwpClose';
-import { dwpDash }              from '@dwPage/dash/dwpDash';
-import { dwpDeals }             from '@dwPage/deals/dwpDeals';
-import { dwpEvent }             from '@dwPage/event/dwpEvent';
-import { dwpDil }               from '@dwPage/dil/dwpDil';
-import { dwpFeed }              from '@dwPage/feed/dwpFeed';
-import { dwpInfo }              from '@dwPage/info/dwpInfo';
-import { dwpMttr }              from '@dwPage/mttr/dwpMttr';
-import { dwpMsgs }              from '@dwPage/msgs/dwpMsgs';
-import { dwpOpts }              from '@dwPage/opts/dwpOpts';
-import { dwpPlay }              from '@dwPage/play/dwpPlay';
-import { dwpPlayNav }           from '@dwPage/playNav/dwpPlayNav';
-import { dwpRoster }            from '@dwPage/roster/dwpRoster';
-import { dwpSrch }              from '@dwPage/srch/dwpSrch';
-import { dwpStruct}             from '@dwPage/struct/dwpStruct';
-import { dwpTasks }             from '@dwPage/tasks/dwpTasks';
-import { dwpTerm }              from '@dwPage/term/dwpTerm';
-import { dwpWar }               from '@dwPage/war/dwpWar';
+import { dwpAct }               from "@dw";
+import { dwpBinder }            from '@dw';
+import { dwpClose }             from '@dw';
+import { dwpDash }              from '@dw';
+import { dwpDeals }             from '@dw';
+import { dwpEvent }             from '@dw';
+import { dwpDil }               from '@dw';
+import { dwpFeed }              from '@dw';
+import { dwpInfo }              from '@dw';
+import { dwpMttr }              from '@dw';
+import { dwpMsgs }              from '@dw';
+import { dwpOpts }              from '@dw';
+import { dwpPlay }              from '@dw';
+import { dwpPlayNav }           from '@dw';
+import { dwpRoster }            from '@dw';
+import { dwpSrch }              from '@dw';
+import { dwpStruct}             from '@dw';
+import { dwpTasks }             from '@dw';
+import { dwpTerm }              from '@dw';
+import { dwpWar }               from '@dw';
 
 const routes: Routes = [
     {

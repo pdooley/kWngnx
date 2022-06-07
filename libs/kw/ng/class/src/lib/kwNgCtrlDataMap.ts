@@ -16,8 +16,8 @@ import { OnInit }		    from '@angular/core';
 import { OnDestroy }	    from '@angular/core';
 import { Subscription }	    from 'rxjs/Subscription';
 
-import { kwCtrlDataMap }    from "@kwCtrl/kwCtrlDataMap";
-import { kwHttpMsg }        from "@kwNgHttp/kwHttpMsg";
+import { kwCtrlDataMap }    from "@kw/base/ctrl";
+import { kwHttpMsg }        from "@kw/ng/http";
 
 import { kwNgStMsg }        from "./kwNgStMsg";
 import { kwNgStDataMap }    from "./kwNgStDataMap";

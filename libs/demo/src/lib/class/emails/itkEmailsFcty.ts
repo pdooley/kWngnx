@@ -20,49 +20,49 @@ import { itkEmailsType }        from "./itkEmailsType";
 // @formatter:on
 
 
-const sTAG: string = "emails";
+const sTAG = "emails";
 
 
 export class itkEmailsFcty
 {
 
-	static create(type: itkEmailsType): itkEmail[]
+	static create(type: itkEmailsType): itkEmail[] | null
 	{
 		//console.log("itkEmailsSrvc::init() is called.");
 
 		if(kw.isNull(type))
 		{
 			console.error("itkEmailsSrvc::create() type is invalid.");
-			return;
+			return null;
 		}
 		//console.info("itkEmailsSrvc::create() type is ", type);
 
-		let list: itkEmailType[] = type[sTAG];
+		const list: itkEmailType[] = type[sTAG];
 		if (!kw.isArray(list))
 		{
 			console.error("itkEmail::init() list is invalid.");
-			return;
+			return null;
 		}
 		//console.info("itkEmail::init() list is ", list);
 
 
-		let items: itkEmail[];
+		const items: itkEmail[] = [];
 
 		for (let i=0; i< list.length; i++)
 		{
-			let type: itkEmailType = list[i];
+			const type: itkEmailType = list[i];
 			if(kw.isNull(type))
 			{
 				console.error("itkEmailsSrvc::create() type is invalid.");
-				return;
+				return null;
 			}
 			//console.info("itkEmailsSrvc::init() create creating emails.");
 
-			let item: itkEmail = new itkEmail(type);
+			const item: itkEmail = new itkEmail(type);
 			if (!item.init())
 			{
 				console.error("itkEmailsSrvc::create() error creating item.");
-				return;
+				return null;
 			}
 			items.push(item)
 		}

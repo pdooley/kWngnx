@@ -26,12 +26,14 @@ export class itkRespSrvc
 		return kw.is(obj, itkRespType)
 	}
 
-	static in(nVal: number): boolean
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+  static in(nVal: number): boolean
 	{
 		return false
 	}
 
-	static toEnum(sVal: string): number
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+  static toEnum(sVal: string): number
 	{
 		return -1;
 	};

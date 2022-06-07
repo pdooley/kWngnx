@@ -17,10 +17,10 @@ import { MatDialogRef }     from "@angular/material";
 import { OnInit }           from '@angular/core';
 
 
-import { kwDlg }            from '@kwNgView/dlg/kwNgDlg/asset/kwDlg';
+import { kwDlg }            from '@kw/ng/view';
 import { kwViewBtnType }    from '../../../kwDlg/class/viewBtn/kwViewBtnType';
-import { kwMetricMsg }		    from '@kwNgState/metric/kwMetricMsg';
-import { kwMetricMsgFcty }		from '@kwNgState/metric/kwMetricMsgFcty';
+import { kwMetricMsg }		    from '@kw/ng/state';
+import { kwMetricMsgFcty }		from '@kw/ng/state';
 
 import { crit }	                from "@itkState/crit/crit";
 import { itkGRMetricEnum }      from "@itkEnum/itkGRMetricEnum";

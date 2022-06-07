@@ -25,11 +25,13 @@ export class itkGuestSrvc
 		return kw.is(obj, itkGuestType)
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	static in(nVal: number): boolean
 	{
 		return false
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	static toEnum(sVal: string): number
 	{
 		return -1;

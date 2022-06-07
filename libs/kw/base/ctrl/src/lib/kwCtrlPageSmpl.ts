@@ -14,7 +14,7 @@
 
 import { kwLog }             from "@kw/kwLog";
 import { kwCtrlPage }        from "./kwCtrlPage";
-import { kwStDataVal }       from "@kwState/kwStDataVal";
+import { kwStDataVal }       from "@kw/base/state";
 
 
 export abstract class kwCtrlPageSmpl extends kwCtrlPage

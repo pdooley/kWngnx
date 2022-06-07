@@ -19,12 +19,12 @@ import { MatDialogRef }						from "@angular/material";
 import { OnInit }							from '@angular/core';
 
 import { kw }                               from "@kw/kw";
-import { kwMetricMsg }                      from "@kwNgState/metric/kwMetricMsg";
-import { kwMetricMsgFcty }                  from "@kwNgState/metric/kwMetricMsgFcty";
+import { kwMetricMsg }                      from "@kw/ng/state";
+import { kwMetricMsgFcty }                  from "@kw/ng/state";
 import { kwMetricType }                     from "@kwClass/metric/kwMetricType";
 import { kwMsg }                            from "@kwClass/msg/kwMsg";
 import { kwNgCtrlPage }	                    from '@kwNgClass/kwNgCtrlPage';
-import { kwStDataList }                     from "@kwState/kwStDataList";
+import { kwStDataList }                     from "@kw/base/state";
 
 import { itkBadView}	                    from '@itkState/bad/itkBadView';
 

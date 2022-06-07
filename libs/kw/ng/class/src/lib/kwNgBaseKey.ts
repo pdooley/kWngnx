@@ -15,7 +15,7 @@
 import { OnInit }               from '@angular/core';
 
 import { kwBaseKey }            from "@kw/key/kwBaseKey";
-import { kwStDataVal }          from "@kwState/kwStDataVal";
+import { kwStDataVal }          from "@kw/base/state";
 //@formatter:on
 
 

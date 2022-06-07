@@ -21,7 +21,7 @@ import { itkEmailsType }                from "./itkEmailsType";
 
 export class itkEmails
 {
-	emails: itkEmail[];
+	emails: itkEmail[] = [];
 
 	constructor(private type: itkEmailsType)
 	{
@@ -39,7 +39,7 @@ export class itkEmails
 		}
 		//console.info("itkEmail::init() type is ", this.type);
 
-		let emails: itkEmail[] = itkEmailsFcty.create(this.type);
+		const emails: itkEmail[] = itkEmailsFcty.create(this.type);
 		if (kw.isNull(emails))
 		{
 			console.error("itkEmail::init() error creating emails.");

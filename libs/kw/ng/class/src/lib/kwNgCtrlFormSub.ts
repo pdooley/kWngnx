@@ -12,7 +12,7 @@
  **********************************************************************/
 
 //@formatter:off
-import { kwStMsgFcty }        from "@kwState/kwStMsgFcty";
+import { kwStMsgFcty }        from "@kw/base/state";
 
 import { kwNgCtrlForm }     from "./kwNgCtrlForm";
 import { kwNgStMdl }        from "./kwNgStMdl";

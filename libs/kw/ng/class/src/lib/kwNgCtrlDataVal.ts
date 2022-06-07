@@ -12,7 +12,7 @@
  **********************************************************************/
 
 //@formatter:off
-import { kwCtrlDataVal }    from "@kwCtrl/kwCtrlDataVal";
+import { kwCtrlDataVal }    from "@kw/base/ctrl";
 //@formatter:on
 
 

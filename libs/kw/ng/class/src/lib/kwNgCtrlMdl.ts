@@ -16,11 +16,11 @@ import { OnInit }           from '@angular/core';
 import { OnDestroy }	    from '@angular/core';
 import { Subscription }	    from 'rxjs/Subscription';
 
-import { kwCtrlMdl }        from "@kwCtrl/kwCtrlMdl";
-import { kwStDataMap }      from "@kwState/kwStDataMap";
-import { kwStMdl }          from "@kwState/kwStMdl";
+import { kwCtrlMdl }        from "@kw/base/ctrl";
+import { kwStDataMap }      from "@kw/base/state";
+import { kwStMdl }          from "@kw/base/state";
 
-import { kwMdlsList }       from "@kwNgState/mdls/kwMdlsList";
+import { kwMdlsList }       from "@kw/ng/state";
 import { kwNgStDataList }   from "./kwNgStDataList";
 
 //@formatter:off

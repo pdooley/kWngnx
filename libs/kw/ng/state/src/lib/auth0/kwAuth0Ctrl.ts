@@ -19,15 +19,15 @@ import { Subscription }			from 'rxjs/Subscription';
 
 import { kw }                   from "@kw/base/core";
 import { kwApi }                from "@kw/base/class";
-import { kwApisApi }            from "@kwNgState/apis/kwApisApi";
-import { kwApisList }           from "@kwNgState/apis/kwApisList";
-import { kwAppVal }             from "@kwNgState/app/kwAppVal";
+import { kwApisApi }            from "@kw/ng/state";
+import { kwApisList }           from "@kw/ng/state";
+import { kwAppVal }             from "@kw/ng/state";
 import { kwBSCustomList }       from "@kw/ng/bs";
 import { kwCred }               from "@kw/base/class";
-import { kwIsRootVal }          from "@kwNgState/isRoot/kwIsRootVal";
-import { kwLoginErrVal }        from "@kwNgState/loginErr/kwLoginErrVal";
-import { kwLoginVal }           from "@kwNgState/login/kwLoginVal";
-import { kwMdlsList }           from "@kwNgState/mdls/kwMdlsList";
+import { kwIsRootVal }          from "@kw/ng/state";
+import { kwLoginErrVal }        from "@kw/ng/state";
+import { kwLoginVal }           from "@kw/ng/state";
+import { kwMdlsList }           from "@kw/ng/state";
 import { kwNgStDataVal }        from "@kw/ng/class";
 
 import { kwAuth0List }          from "./kwAuth0List";

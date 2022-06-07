@@ -16,7 +16,7 @@ import {Component }            from "@angular/core";
 
 import {kwBSInitMsg }          from "./kwBSInitMsg";
 import {kwBSInitList }         from "./kwBSInitList";
-import {kwHttpMsg }            from "@kwNgHttp/kwHttpMsg";
+import {kwHttpMsg }            from "@kw/ng/http";
 import {kwNgCtrlDataList }     from "@kw/ng/class";
 //@formatter:on
 

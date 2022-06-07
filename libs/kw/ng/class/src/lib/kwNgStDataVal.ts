@@ -18,7 +18,7 @@ import { Injectable }       from '@angular/core';
 import { AppInjector }      from '@app/appInjector';
 
 import { kwBSTraceVal }     from "@kw/ng/bs";
-import { kwStDataVal }      from "@kwState/kwStDataVal";
+import { kwStDataVal }      from "@kw/base/state";
 
 //@formatter:off
 

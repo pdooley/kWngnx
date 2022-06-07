@@ -29,12 +29,12 @@ import { kwBSAttrsVal }         from "@kw/ng/bs";
 import { kwBSDispVal }          from "@kw/ng/bs";
 import { kwBSFltrVal }          from "@kw/ng/bs";
 import { kwBSRsltVal }          from "@kw/ng/bs";
-import { kwCtrlCompMsg }        from "@kwCtrl/kwCtrlCompMsg";
+import { kwCtrlCompMsg }        from "@kw/base/ctrl";
 import { kwLog }                from "@kw/kwLog";
 import { kwMsg }                from "@kw/base/class";
 import { kwNgStDataList }       from "@kw/ng/class";
 import { kwNgStMsg }            from "./kwNgStMsg";
-import { kwStMsgFcty }          from "@kwState/kwStMsgFcty";
+import { kwStMsgFcty }          from "@kw/base/state";
 
 
 export abstract class kwNgCtrlCompMsg   extends kwCtrlCompMsg

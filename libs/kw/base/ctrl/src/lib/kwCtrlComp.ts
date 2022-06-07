@@ -18,7 +18,7 @@ import {kwAttrs}                from "@kw/base/class";
 import {kwDisp}                 from "@kw/base/class";
 import {kwElmt}                 from "@kw/base/class";
 import {kwLog}                  from "@kw/kwLog";
-import {kwStDataVal}            from "@kwState/kwStDataVal";
+import {kwStDataVal}            from "@kw/base/state";
 
 
 

@@ -14,9 +14,9 @@
 
 import { Component }            from '@angular/core';
 
-import { kwApisList }           from "@kwNgState/apis/kwApisList";
+import { kwApisList }           from "@kw/ng/state";
 import { kwNgCtrlApi }      from "@kw/ng/class";
-import { kwOrgApi }        from "@kwNgState/org/kwOrgApi";
+import { kwOrgApi }        from "@kw/ng/state";
 //@formatter:off
 
 

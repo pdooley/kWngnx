@@ -18,7 +18,7 @@ import { AppInjector }      from '@app/appInjector';
 
 import { kw }               from "@kw/base/core"
 import { kwBSTraceVal }     from "@kw/ng/bs";
-import { kwStDataList }     from "@kwState/kwStDataList";
+import { kwStDataList }     from "@kw/base/state";
 
 
 export class kwNgStDataList extends kwStDataList

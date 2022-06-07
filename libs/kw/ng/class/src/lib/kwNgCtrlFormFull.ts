@@ -15,8 +15,8 @@
 import { kwBSCurrsMap }     from "@kw/ng/bs";
 import { kwBSLangsMap }     from "@kw/ng/bs";
 import { kwBSTZsMap }       from "@kw/ng/bs";
-import { kwStMsgFcty }        from "@kwState/kwStMsgFcty";
-import { kwStDataMap }      from "@kwState/kwStDataMap";
+import { kwStMsgFcty }        from "@kw/base/state";
+import { kwStDataMap }      from "@kw/base/state";
 
 import { kwNgCtrlForm }     from "./kwNgCtrlForm";
 import { kwNgStMdl }        from "./kwNgStMdl";

@@ -18,9 +18,9 @@ import { kwMap }            from "@kw/base/class";
 import { kwMdl }            from "@kw/base/class";
 import { kwMdlFcty }        from "@kw/base/class";
 import { kwMdls }           from "@kw/base/class";
-import { kwStDataList }     from "@kwState/kwStDataList";
-import { kwStDataMap }      from "@kwState/kwStDataMap";
-import { kwStMdl }          from "@kwState/kwStMdl";
+import { kwStDataList }     from "@kw/base/state";
+import { kwStDataMap }      from "@kw/base/state";
+import { kwStMdl }          from "@kw/base/state";
 import { kwtMdl }           from "@kw/base/class";
 
 //@formatter:off

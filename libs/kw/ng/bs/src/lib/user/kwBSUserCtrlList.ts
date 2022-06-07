@@ -18,7 +18,7 @@ import {OnDestroy }			    from '@angular/core';
 import {Subscription }			from 'rxjs/Subscription';
 
 import {kw}                     from "@kw/base/core";
-import {kwSigninList}           from "@kwNgState/signin/kwSigninList";
+import {kwSigninList}           from "@kw/ng/state";
 
 import {kwBSUserList }          from "./kwBSUserList";
 

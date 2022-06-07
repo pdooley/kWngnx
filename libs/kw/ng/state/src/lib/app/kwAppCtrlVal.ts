@@ -19,7 +19,7 @@ import { Router }                from '@angular/router';
 import { Subscription }            from 'rxjs/Subscription';
 
 import { kw }                   from "@kw/base/core"
-import { kwApisList }           from "@kwNgState/apis/kwApisList";
+import { kwApisList }           from "@kw/ng/state";
 import { kwApp }                from "@kw/base/class";
 import { kwAppInit }            from "@kw/base/class";;
 import { kwAppLoggedIn}         from "@kw/base/class";
@@ -31,11 +31,11 @@ import { kwBSStat }             from "@kw/base/class";
 import { kwBSTokensMap}         from "@kw/ng/bs";
 import { kwBSTraceAppVal }      from "@kw/ng/bs";
 import { kwBSUserList}          from "@kw/ng/bs";
-import { kwLoginVal }           from "@kwNgState/login/kwLoginVal";
+import { kwLoginVal }           from "@kw/ng/state";
 import { kwNgStDataVal }        from "@kw/ng/class";
-import { kwSigninApi }          from "@kwNgState/signin/kwSigninApi";
-import { kwSigninMdl }          from "@kwNgState/signin/kwSigninMdl";
-import { kwSigninView }         from "@kwNgState/signin/kwSigninView";
+import { kwSigninApi }          from "@kw/ng/state";
+import { kwSigninMdl }          from "@kw/ng/state";
+import { kwSigninView }         from "@kw/ng/state";
 import { kwAppEnum }            from "@kw/base/class";
 import { kwMsg }                from "@kw/base/class";
 

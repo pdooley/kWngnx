@@ -17,8 +17,8 @@ import { kwMsg }            from "@kw/base/class";
 
 import { kwCtrlData }       from "./kwCtrlData";
 import { kwHttpMsg }        from "../../kwNg/http/kwHttpMsg";
-import { kwStDataMap }      from "@kwState/kwStDataMap";
-import { kwStMsg }          from "@kwState/kwStMsg";
+import { kwStDataMap }      from "@kw/base/state";
+import { kwStMsg }          from "@kw/base/state";
 //@formatter:on
 
 export abstract class kwCtrlDataMap extends kwCtrlData

@@ -18,7 +18,7 @@ import { OnDestroy }	        from '@angular/core';
 import { Subscription }         from "rxjs/Subscription";
 
 import { kwApp }                from "@kw/base/class";
-import { kwAppVal }             from "@kwNgState/app/kwAppVal";
+import { kwAppVal }             from "@kw/ng/state";
 import { kwMsg }                from "@kw/base/class";
 
 import { kwApisMsg }            from "./kwApisMsg";

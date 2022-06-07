@@ -16,8 +16,8 @@ import { OnInit }		    from '@angular/core';
 import { OnDestroy }	    from '@angular/core';
 import { Subscription }	    from 'rxjs/Subscription';
 
-import { kwCtrlDataList }   from "@kwCtrl/kwCtrlDataList";
-import { kwHttpMsg }        from "@kwNgHttp/kwHttpMsg";
+import { kwCtrlDataList }   from "@kw/base/ctrl";
+import { kwHttpMsg }        from "@kw/ng/http";
 
 import { kwNgStMsg }        from "./kwNgStMsg";
 import { kwNgStDataList }   from "./kwNgStDataList";

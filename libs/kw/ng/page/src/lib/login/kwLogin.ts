@@ -16,14 +16,14 @@ import { Component }        from '@angular/core';
 import { OnInit }           from '@angular/core';
 import { Subscription }     from "rxjs/Subscription";
 
-import {fadeInAnim}         from "@kwNgView/fadeIn/kwFadeIn";
+import {fadeInAnim}         from "@kw/ng/view";
 
 import {kw}                 from "@kw/base/core";
 import {kwBSAutoLoginVal}   from "@kw/ng/bs";
 import {kwBSCredVal}        from "@kw/ng/bs";
 import {kwCred}             from "@kw/base/class";
-import {kwSigninMsgFcty}    from "@kwNgState/signin/kwSigninMsgFcty";
-import {kwSigninMsg}        from "@kwNgState/signin/kwSigninMsg";
+import {kwSigninMsgFcty}    from "@kw/ng/state";
+import {kwSigninMsg}        from "@kw/ng/state";
 import {kwMsg}              from "@kw/base/class";
 
 //@formatter:on

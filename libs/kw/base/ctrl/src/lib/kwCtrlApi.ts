@@ -16,8 +16,8 @@ import { kw }               from "@kw/base/core"
 import { kwApi }            from "@kw/base/class";
 import { kwApiType }        from "@kw/base/class";
 import { kwCtrl }           from "./kwCtrl";
-import { kwStApi }          from "@kwState/kwStApi";
-import { kwStDataList }     from "@kwState/kwStDataList";
+import { kwStApi }          from "@kw/base/state";
+import { kwStDataList }     from "@kw/base/state";
 //@formatter:off
 
 

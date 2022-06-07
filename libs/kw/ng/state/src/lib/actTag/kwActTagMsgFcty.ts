@@ -17,7 +17,7 @@ import { Injectable }       from '@angular/core';
 import { kwActTagApi }      from "./kwActTagApi";
 import { kwBSSrvcsMap }     from "@kw/ng/bs";
 import { kwBSTokensMap }    from "@kw/ng/bs";
-import { kwStMsgFcty }        from "@kwState/kwStMsgFcty";
+import { kwStMsgFcty }        from "@kw/base/state";
 //@formatter:off
 
 

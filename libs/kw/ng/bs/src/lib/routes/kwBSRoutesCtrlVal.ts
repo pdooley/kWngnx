@@ -20,7 +20,7 @@ import {Subscription }     from 'rxjs/Subscription';
 import {kw}                from "@kw/base/core";
 import{kwBS}               from "@kw/base/class";
 import {kwBSVal }          from "@kw/ng/bs";
-import {kwSigninList}      from "@kwNgState/signin/kwSigninList";
+import {kwSigninList}      from "@kw/ng/state";
 import {kwRoutes}          from "@kw/base/class";
 
 import {kwBSRoutesVal }    from "./kwBSRoutesVal";

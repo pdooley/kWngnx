@@ -16,10 +16,10 @@ import { kw }               from "@kw/base/core";
 import { kwFormEnum }       from "@kw/base/class";
 import { kwFormSrvc }       from "@kw/base/class";
 import { kwMsg }            from "@kw/base/class";
-import { kwStMsgFcty }      from "@kwState/kwStMsgFcty";
-import { kwSt }             from "@kwState/kwSt";
-import { kwStMdl }          from "@kwState/kwStMdl";
-import { kwStMsg }          from "@kwState/kwStMsg";
+import { kwStMsgFcty }      from "@kw/base/state";
+import { kwSt }             from "@kw/base/state";
+import { kwStMdl }          from "@kw/base/state";
+import { kwStMsg }          from "@kw/base/state";
 import { kwTrace }          from "@kw/base/class";
 //@formatter:off
 

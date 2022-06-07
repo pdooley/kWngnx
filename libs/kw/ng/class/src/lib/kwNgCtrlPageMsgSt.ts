@@ -22,7 +22,7 @@ import {kwNgCtrlPageMsg} from '@kw/ng/class';
 import {kwNgStDataList} from "@kw/ng/class";
 import {kwNgStDataVal} from "@kw/ng/class";
 import {kwNgStMsg} from "@kw/ng/class";
-import {kwStMsgFcty} from "@kwState/kwStMsgFcty";
+import {kwStMsgFcty} from "@kw/base/state";
 
 
 export abstract class kwNgCtrlPageMsgSt extends kwNgCtrlPageMsg

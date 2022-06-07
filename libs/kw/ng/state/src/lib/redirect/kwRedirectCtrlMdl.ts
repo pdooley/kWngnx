@@ -14,7 +14,7 @@
 
 import { Component }        from '@angular/core';
 
-import { kwMdlsList }        from "@kwNgState/mdls/kwMdlsList";
+import { kwMdlsList }        from "@kw/ng/state";
 import { kwBSCurrsMap }     from "@kw/ng/bs";
 import { kwBSLangsMap }     from "@kw/ng/bs";
 import { kwBSTZsMap }       from "@kw/ng/bs";

@@ -13,8 +13,8 @@
 //@formatter:off
 
 import { kw }               from "@kw/base/core";
-import { kwStDataList }     from "@kwState/kwStDataList";
-import { kwStDataVal }         from "@kwState/kwStDataVal";
+import { kwStDataList }     from "@kw/base/state";
+import { kwStDataVal }         from "@kw/base/state";
 
 
 

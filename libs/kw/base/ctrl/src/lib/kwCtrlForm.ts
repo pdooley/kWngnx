@@ -18,9 +18,9 @@ import { kwCtrl }           from "./kwCtrl";
 import { kwFormEnum }       from "@kw/base/class";
 import { kwFormSrvc }       from "@kw/base/class";
 import { kwMsg }            from "@kw/base/class";
-import { kwStMdl }          from "@kwState/kwStMdl";
-import { kwStMsg }          from "@kwState/kwStMsg";
-import { kwStMsgFcty }      from "@kwState/kwStMsgFcty";
+import { kwStMdl }          from "@kw/base/state";
+import { kwStMsg }          from "@kw/base/state";
+import { kwStMsgFcty }      from "@kw/base/state";
 
 
 

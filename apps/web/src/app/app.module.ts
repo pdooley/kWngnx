@@ -10,14 +10,14 @@ import { MAT_FORM_FIELD_DEFAULT_OPTIONS, MatFormFieldDefaultOptions } from '@ang
 import { MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarConfig } from '@angular/material/snack-bar';
 
 import { kwNgMod }				          from '@kwNg/kwNgMod';
-import { kwNgViewMod }		   		    from '@kwNgView/kwNgViewMod';
+import { kwNgViewMod }		   		    from '@kw/ng/view';
 import { kwBSModG }                 from '@kwNgBS/kwBSModG';
 
-import { dlStateMod }               from '@dwState/dlStateMod';
-import { dwCompMod }                from '@dwComp/dwCompMod';
-import { dwCoreMod }                from '@dwCore/dwCoreMod';
+import { dlStateMod }               from '@dw';
+import { dwCompMod }                from '@dw';
+import { dwCoreMod }                from '@dw';
 
-import { dwPageMod }                from '@dwPage/dwPageMod';
+import { dwPageMod }                from '@dw';
 
 import {TokenInterceptor}           from "./config/http";
 

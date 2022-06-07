@@ -15,10 +15,10 @@
 import { Component }        from '@angular/core';
 import { OnInit }           from '@angular/core';
 
-//import {fadeInAnim}         from "@kwNgView/fadeIn/kwFadeIn";
+//import {fadeInAnim}         from "@kw/ng/view";
 
 import {kw}                 from "@kw/base/core";
-import {kwAppVal}           from "@kwNgState/app/kwAppVal";
+import {kwAppVal}           from "@kw/ng/state";
 import {kwAppLoggedOut}     from "@kw/base/class";
 
 //@formatter:on

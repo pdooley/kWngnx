@@ -24,11 +24,11 @@ import { kwBSFltrVal }          from "@kw/ng/bs";
 import { kwBSRsltVal }          from "@kw/ng/bs";
 import { kwLog }                from "@kw/kwLog";
 import { kwMsg }                from "@kw/base/class";
-import { kwCtrlPageMsg }        from '@kwCtrl/kwCtrlPageMsg';
+import { kwCtrlPageMsg }        from '@kw/base/ctrl';
 import { kwNgStDataList }       from "@kw/ng/class";
 import { kwNgStDataVal }        from "@kw/ng/class";
 import { kwNgStMsg }            from "@kw/ng/class";
-import { kwStMsgFcty }          from "@kwState/kwStMsgFcty";
+import { kwStMsgFcty }          from "@kw/base/state";
 
 import { AppInjector }          from '@app/appInjector';
 

@@ -19,8 +19,8 @@ import { OnInit }               from '@angular/core';
 import { Router }               from '@angular/router';
 import { Subscription }         from "rxjs/Subscription";
 
-import { kwMetricMsg }		    from '@kwNgState/metric/kwMetricMsg';
-import { kwMetricMsgFcty }		from '@kwNgState/metric/kwMetricMsgFcty';
+import { kwMetricMsg }		    from '@kw/ng/state';
+import { kwMetricMsgFcty }		from '@kw/ng/state';
 
 import { crit }	                from "@itkState/crit/crit";
 import { itkGRMetricEnum }      from "@itkEnum/itkGRMetricEnum";

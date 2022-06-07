@@ -20,7 +20,7 @@ import { itkGuestType }                from "./itkGuestType";
 
 export class itkGuest
 {
-	sEmail: string;
+	sEmail = "";
 
 	constructor(private type: itkGuestType)
 	{
@@ -38,7 +38,7 @@ export class itkGuest
 		}
 		//console.info("itkEmail::init() type is ", this.type);
 
-		let sEmail: string = this.type.sEmail;
+		const sEmail: string = this.type.sEmail;
 		if (!kw.isString(sEmail))
 		{
 			console.error("itkEmail::init() sEmail is invalid.");

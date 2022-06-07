@@ -14,7 +14,7 @@
 
 import { Component }		from '@angular/core';
 
-import { kwApisList }       from "@kwNgState/apis/kwApisList";
+import { kwApisList }       from "@kw/ng/state";
 import { kwNgCtrlApi }      from "@kw/ng/class";
 
 import { kwAccCreateApi }   from "./kwAccCreateApi";

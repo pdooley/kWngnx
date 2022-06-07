@@ -16,8 +16,8 @@ import { EventEmitter }     from '@angular/core';
 
 import { kwBSTraceVal }     from "@kw/ng/bs";
 import { kwMsg }            from "@kw/base/class";
-import { kwStApi }          from "@kwState/kwStApi";
-import { kwStMsg }          from "@kwState/kwStMsg";
+import { kwStApi }          from "@kw/base/state";
+import { kwStMsg }          from "@kw/base/state";
 
 //@formatter:off
 

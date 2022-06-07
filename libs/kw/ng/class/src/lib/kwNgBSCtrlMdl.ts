@@ -18,9 +18,9 @@ import {Subscription }	    from 'rxjs/Subscription';
 
 import {kw }                from "@kw/base/core";
 import {kwBSCtrlMdl }       from "@kwBS/kwBSCtrlMdl";
-import {kwMdlsList }        from "@kwNgState/mdls/kwMdlsList";
+import {kwMdlsList }        from "@kw/ng/state";
 import {kwNgStDataList }    from "@kw/ng/class";
-import {kwStMdl }           from "@kwState/kwStMdl";
+import {kwStMdl }           from "@kw/base/state";
 
 //@formatter:off
 

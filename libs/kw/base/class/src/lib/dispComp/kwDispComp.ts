@@ -15,7 +15,7 @@
 /*
 import {kw }    		            from "@kw/base/core";
 
-import {kwCtrlComp}    		        from "@kwCtrl/kwCtrlComp";
+import {kwCtrlComp}    		        from "@kw/base/ctrl";
 import {kwDisp}    		            from "@kw/base/class";
 import {kwLog }    		            from "@kw/base/core";
 

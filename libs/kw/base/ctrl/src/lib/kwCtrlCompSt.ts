@@ -12,7 +12,7 @@
  **********************************************************************/
 //@formatter:off
 import { kwCtrlComp }               from "./kwCtrlComp";
-import { kwStData }                 from "@kwState/kwStData"
+import { kwStData }                 from "@kw/base/state"
 
 
 export abstract class kwCtrlCompSt extends kwCtrlComp

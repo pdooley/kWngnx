@@ -22,7 +22,7 @@ import { kwBSDispVal }          from "@kw/ng/bs";
 import { kwBSFltrVal }          from "@kw/ng/bs";
 import { kwBSRsltVal }          from "@kw/ng/bs";
 import { kwLog}                 from "@kw/kwLog";
-import { kwCtrlPageSmpl }       from '@kwCtrl/kwCtrlPageSmpl';
+import { kwCtrlPageSmpl }       from '@kw/base/ctrl';
 import { kwNgStDataVal }        from '@kw/ng/class';
 
 import { AppInjector }          from '@app/appInjector';

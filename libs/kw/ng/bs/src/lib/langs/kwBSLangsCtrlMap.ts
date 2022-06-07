@@ -16,7 +16,7 @@ import {Component }        from "@angular/core";
 
 import {kwBSLangsMsg }     from "./kwBSLangsMsg";
 import {kwBSLangsMap }     from "./kwBSLangsMap";
-import {kwHttpMsg }        from "@kwNgHttp/kwHttpMsg";
+import {kwHttpMsg }        from "@kw/ng/http";
 import {kwNgCtrlDataMap }  from "@kw/ng/class";
 //@formatter:on
 

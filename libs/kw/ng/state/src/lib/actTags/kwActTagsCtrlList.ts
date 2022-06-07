@@ -16,7 +16,7 @@ import { Component }                from "@angular/core";
 
 import { kwActTagsMsg }             from "./kwActTagsMsg";
 import { kwActTagsList }            from "./kwActTagsList";
-import { kwHttpMsg }                from "@kwNgHttp/kwHttpMsg";
+import { kwHttpMsg }                from "@kw/ng/http";
 import { kwNgCtrlDataList }         from "@kw/ng/class";
 //@formatter:on
 

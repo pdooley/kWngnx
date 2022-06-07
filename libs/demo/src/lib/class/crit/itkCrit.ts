@@ -20,9 +20,9 @@ import { itkCritType }                 from "./itkCritType";
 
 export class itkCrit
 {
-	sCrit: string;
-	sEmail: string;
-	sPhone: string;
+	sCrit = "";
+	sEmail = "";
+	sPhon  = "";
 
 	constructor(private type: itkCritType)
 	{

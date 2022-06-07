@@ -17,7 +17,6 @@ import {Component }        from '@angular/core';
 
 
 @Component({
-	moduleId: module.id,
 	selector: 'kw-bootstrap-api',
 	templateUrl: 'kwBSApi.html'
 })

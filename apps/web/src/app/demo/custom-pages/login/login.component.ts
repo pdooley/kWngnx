@@ -13,8 +13,8 @@ import {kw}                     from "@kw/kw";
 import {kwBSAutoLoginVal}       from "@kwNgBS/autoLogin/kwBSAutoLoginVal";
 import {kwBSCredVal}            from "@kwNgBS/cred/kwBSCredVal";
 import {kwCred}                 from "@kwClass/cred/kwCred";
-import {kwSigninMsgFcty}        from "@kwNgState/signin/kwSigninMsgFcty";
-import {kwSigninMsg}            from "@kwNgState/signin/kwSigninMsg";
+import {kwSigninMsgFcty}        from "@kw/ng/state";
+import {kwSigninMsg}            from "@kw/ng/state";
 import {kwMsg}                  from "@kwClass/msg/kwMsg";
 
 @Component({
@@ -81,7 +81,7 @@ export class LoginComponent implements OnInit {
 
 		this.srvcMsg.change(msg);
 	}
-	
+
 	inspect()
 	{
 		//console.log('login.component::inspect() called.');

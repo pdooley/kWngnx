@@ -14,7 +14,7 @@
 //@formatter:off
 import { Component }        from "@angular/core";
 
-import { kwHttpMsg }        from "@kwNgHttp/kwHttpMsg";
+import { kwHttpMsg }        from "@kw/ng/http";
 import { kwNgCtrlDataList } from "@kw/ng/class";
 
 import { kwSigninMsg }         from "./kwSigninMsg";

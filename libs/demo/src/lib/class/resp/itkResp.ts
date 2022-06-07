@@ -14,16 +14,15 @@
 // @formatter:off
 import { kw }		                    from "@kw/base/core";
 
-import { itkRespSrvc }                 from "./itkRespSrvc";
 import { itkRespType }                 from "./itkRespType";
 // @formatter:on
 
 
 export class itkResp
 {
-	sResp: string;
-	sEmail: string;
-	sPhone: string;
+	sResp = "";
+	sEmail = "";
+	sPhone = "";
 
 	constructor(private type: itkRespType)
 	{
@@ -41,7 +40,7 @@ export class itkResp
 		}
 		//console.info("itkResp::init() type is ", this.type);
 
-		let sResp: string = this.type.sResp;
+		const sResp: string = this.type.sResp;
 		if(!kw.isString(sResp))
 		{
 			console.error("itkResp::init() sResp is invalid.");
@@ -50,7 +49,7 @@ export class itkResp
 		//console.info("itkResp::init() sResp is ", sResp);
 		this.sResp = sResp;
 
-		let sEmail: string = this.type.sEmail;
+		const sEmail: string = this.type.sEmail;
 		if(!kw.isString(sEmail))
 		{
 			console.error("itkEmail::init() sEmail is invalid.");
@@ -59,7 +58,7 @@ export class itkResp
 		//console.info("itkEmail::init() sEmail is ", sEmail);
 		this.sEmail = sEmail;
 
-		let sPhone: string = this.type.sPhone;
+		const sPhone: string = this.type.sPhone;
 		if(!kw.isString(sPhone))
 		{
 			console.error("itkPhone::init() sPhone is invalid.");

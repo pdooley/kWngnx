@@ -14,14 +14,13 @@
 // @formatter:off
 import { kw }		                    from "@kw/base/core";
 
-import { itkEmailSrvc }                 from "./itkEmailSrvc";
 import { itkEmailType }                 from "./itkEmailType";
 // @formatter:on
 
 
 export class itkEmail
 {
-	sEmail: string;
+	sEmail = "";
 
 	constructor(private type: itkEmailType)
 	{
@@ -39,7 +38,7 @@ export class itkEmail
 		}
 		//console.info("itkEmail::init() type is ", this.type);
 
-		let sEmail: string = this.type.sEmail;
+		const sEmail = this.type.sEmail;
 		if(!kw.isString(sEmail))
 		{
 			console.error("itkEmail::init() sEmail is invalid.");
