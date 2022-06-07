@@ -1,4 +1,1 @@
-autocomplete.component.html
-autocomplete.component.scss
-autocomplete.component.ts
-index.ts
+export * from './autocomplete.component';

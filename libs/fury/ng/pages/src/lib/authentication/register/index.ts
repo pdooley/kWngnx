@@ -1,6 +1,3 @@
-index.ts
-register-routing.module.ts
-register.component.html
-register.component.scss
-register.component.ts
-register.module.ts
+export * from './register-routing.module';
+export * from './register.component';
+export * from './register.module';

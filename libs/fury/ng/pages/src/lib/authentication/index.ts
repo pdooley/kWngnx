@@ -1,4 +1,3 @@
-forgot-password
-index.ts
-login
-register
+export * from './forgot-password';
+export * from './login';
+export * from './register';

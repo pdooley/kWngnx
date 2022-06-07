@@ -1,0 +1,12 @@
+advanced-pie-chart-widget
+audience-overview-widget
+bar-chart-widget
+donut-chart-widget
+index.ts
+line-chart-widget
+maps-widget
+market-widget
+quick-info-widget
+realtime-users-widget
+recent-sales-widget
+sales-summary-widget
