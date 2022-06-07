@@ -3,7 +3,8 @@
   "projects": {
     "api": "apps/api",
     "dw": "libs/demo",
-    "fury": "apps/fury",
+    "fury": "libs/fury",
+    "furyApp": "apps/fury",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "kw-base-bs": "libs/kw/base/bs",

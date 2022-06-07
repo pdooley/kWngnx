@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/fury/ng/pages",
+  "sourceRoot": "libs/fury/ng/pages/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/ng/pages/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/ng/pages/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/ng/pages"]
+    }
+  }
+}

@@ -16,6 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@dw":["libs/demo/src/index.ts"],
+      "@fury":["app/fury/src/index.ts"],
+      "@fury/core":["libs/fury/core/src/index.ts"],
+      "@fury/ng/layout":["libs/fury/ng/layout/src/index.ts"],
+      "@fury/ng/pages":["libs/fury/ng/pages/src/index.ts"],
       "@kw/base/bs":["libs/kw/base/bs/src/index.ts"],
       "@kw/base/class":["libs/kw/base/class/src/index.ts"],
       "@kw/base/cookie":["libs/kw/base/cookie/src/index.ts"],
