@@ -28,6 +28,7 @@
       "@fury/pages/auth/register":["libs/fury/pages/authentication/register/src/index.ts"],
       "@fury/pages/coming-soon":["libs/fury/pages/coming-soon/src/index.ts"],
       "@fury/pages/dashboard":["libs/fury/pages/dashboard/src/index.ts"],
+      "@fury/pages/components":["libs/fury/pages/components/src/index.ts"],
       "@kw/base/bs":["libs/kw/base/bs/src/index.ts"],
       "@kw/base/class":["libs/kw/base/class/src/index.ts"],
       "@kw/base/cookie":["libs/kw/base/cookie/src/index.ts"],

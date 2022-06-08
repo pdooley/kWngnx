@@ -38,19 +38,19 @@ const routes: Routes = [
       },
       {
         path: 'apps/chat',
-        loadChildren: () => import('@fury//pages/apps/chat').then(m => m.ChatModule),
+        loadChildren: () => import('@fury/pages/apps/chat').then(m => m.ChatModule),
       },
       {
         path: 'components',
-        loadChildren: () => import('./pages/components/components.module').then(m => m.ComponentsModule),
+        loadChildren: () => import('@fury/pages/components').then(m => m.ComponentsModule),
       },
       {
         path: 'forms/form-elements',
-        loadChildren: () => import('./pages/forms/form-elements/form-elements.module').then(m => m.FormElementsModule),
+        loadChildren: () => import('@fury/pages/forms/form-elements').then(m => m.FormElementsModule),
       },
       {
         path: 'forms/form-wizard',
-        loadChildren: () => import('./pages/forms/form-wizard/form-wizard.module').then(m => m.FormWizardModule),
+        loadChildren: () => import('@fury/pages/forms/form-wizard').then(m => m.FormWizardModule),
       },
       {
         path: 'icons',
