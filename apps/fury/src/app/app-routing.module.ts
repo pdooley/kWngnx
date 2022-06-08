@@ -30,11 +30,11 @@ const routes: Routes = [
       },
       {
         path: 'apps/inbox',
-        loadChildren: () => import('@fury/pages/apps/inbox/inbox.module').then(m => m.InboxModule),
+        loadChildren: () => import('@fury/pages/apps/inbox').then(m => m.InboxModule),
       },
       {
         path: 'apps/calendar',
-        loadChildren: () => import('./pages/apps/calendar/calendar.module').then(m => m.CalendarAppModule),
+        loadChildren: () => import('@fury/pages/apps/calendar').then(m => m.CalendarAppModule),
       },
       {
         path: 'apps/chat',
