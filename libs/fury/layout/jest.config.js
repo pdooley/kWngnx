@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'fury-ng-layout',
-  preset: '../../jest.preset.js',
+  displayName: 'fury-layout',
+  preset: '../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/fury/ng/layout'
+  coverageDirectory: '../../../coverage/libs/fury/layout'
 };

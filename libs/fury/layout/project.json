@@ -1,23 +1,23 @@
 {
   "projectType": "library",
-  "root": "libs/fury/ng/layout",
-  "sourceRoot": "libs/fury/ng/layout/src",
+  "root": "libs/fury/layout",
+  "sourceRoot": "libs/fury/layout/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/ng/layout/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/layout/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/ng/layout/jest.config.js",
+        "jestConfig": "libs/fury/layout/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/ng/layout"]
+      "outputs": ["coverage/libs/fury/layout"]
     }
   }
 }

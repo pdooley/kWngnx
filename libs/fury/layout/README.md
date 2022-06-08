@@ -1,10 +1,10 @@
-# fury-ng-layout
+# fury-layout
 
 This library was generated with [Nx](https://nx.dev).
 
 
 ## Running unit tests
 
-Run `nx test fury-ng-layout` to execute the unit tests via [Jest](https://jestjs.io).
+Run `nx test fury-layout` to execute the unit tests via [Jest](https://jestjs.io).
 
 

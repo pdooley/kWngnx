@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from '@fury/ng/layout';
+import { LayoutComponent } from '@fury/layout';
 
 const routes: Routes = [
   {
@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'forgot-password',
-    loadChildren: () => import('@fury/pages/auth/forgot-pwd').then(m => m.ForgotPasswordModule),
+    loadChildren: () => import('@fury/pages/auth/forgot-password').then(m => m.ForgotPasswordModule),
   },
   {
     path: 'coming-soon',
