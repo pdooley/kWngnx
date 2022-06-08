@@ -9,6 +9,7 @@
     "fury-pages-auth-login": "libs/fury/pages/authentication/login",
     "fury-pages-auth-register": "libs/fury/pages/authentication/register",
     "fury-pages-coming-soon": "libs/fury/pages/coming-soon",
+    "fury-pages-dashboard": "libs/fury/pages/dashboard",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "kw-base-bs": "libs/kw/base/bs",

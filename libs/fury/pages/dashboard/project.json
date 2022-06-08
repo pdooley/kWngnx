@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/fury/pages/dashboard",
+  "sourceRoot": "libs/fury/pages/dashboard/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/pages/dashboard/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/pages/dashboard/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/pages/dashboard"]
+    }
+  }
+}
