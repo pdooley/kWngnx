@@ -1,7 +1,7 @@
 {
   "projectType": "library",
-  "root": "libs/fury/ng/pages/authentication/forgot-password",
-  "sourceRoot": "libs/fury/ng/pages/authentication/forgot-password/src",
+  "root": "libs/fury/pages/authentication/forgot-password",
+  "sourceRoot": "libs/fury/pages/authentication/forgot-password/src",
   "tags": [],
   "targets": {
     "lint": {

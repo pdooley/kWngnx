@@ -5,19 +5,19 @@ import { LayoutComponent } from '@fury/ng/layout';
 const routes: Routes = [
   {
     path: 'login',
-    loadChildren: () => import('@fury/pages/auth/login/login.module').then(m => m.LoginModule),
+    loadChildren: () => import('@fury/pages/auth/login').then(m => m.LoginModule),
   },
   {
     path: 'register',
-    loadChildren: () => import('@fury/pages/auth/register/register.module').then(m => m.RegisterModule),
+    loadChildren: () => import('@fury/pages/auth/register').then(m => m.RegisterModule),
   },
   {
     path: 'forgot-password',
-    loadChildren: () => import('@fury/pages/auth/forgot-password/forgot-password.module').then(m => m.ForgotPasswordModule),
+    loadChildren: () => import('@fury/pages/auth/forgot-pwd').then(m => m.ForgotPasswordModule),
   },
   {
     path: 'coming-soon',
-    loadChildren: () => import('@fury/pages/coming-soon/coming-soon.module').then(m => m.ComingSoonModule),
+    loadChildren: () => import('@fury/pages/coming-soon').then(m => m.ComingSoonModule),
   },
   {
     path: '',
@@ -25,12 +25,12 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule),
+        loadChildren: () => import('@fury/pages/dashboard').then(m => m.DashboardModule),
         pathMatch: 'full'
       },
       {
         path: 'apps/inbox',
-        loadChildren: () => import('./pages/apps/inbox/inbox.module').then(m => m.InboxModule),
+        loadChildren: () => import('@fury/pages/apps/inbox/inbox.module').then(m => m.InboxModule),
       },
       {
         path: 'apps/calendar',

@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-pages-auth-forgot-password',
+  displayName: 'fury-pages-apps-calendar',
   preset: '../../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/pages/authentication/forgot-password'
+  coverageDirectory: '../../../../../coverage/libs/fury/pages/apps/calendar'
 };
