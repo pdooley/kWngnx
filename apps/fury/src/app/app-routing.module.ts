@@ -38,7 +38,7 @@ const routes: Routes = [
       },
       {
         path: 'apps/chat',
-        loadChildren: () => import('./pages/apps/chat/chat.module').then(m => m.ChatModule),
+        loadChildren: () => import('@fury//pages/apps/chat').then(m => m.ChatModule),
       },
       {
         path: 'components',

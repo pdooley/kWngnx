@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-pages-apps-forgot-pwd',
+  displayName: 'fury-pages-apps-inbox',
   preset: '../../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/pages/apps/forgot-password'
+  coverageDirectory: '../../../../../coverage/libs/fury/pages/apps/inbox'
 };

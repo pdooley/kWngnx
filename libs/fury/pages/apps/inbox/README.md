@@ -1,10 +1,10 @@
-# fury-pages-apps-forgot-pwd
+# fury-pages-apps-inbox
 
 This library was generated with [Nx](https://nx.dev).
 
 
 ## Running unit tests
 
-Run `nx test fury-pages-forgot-pwd` to execute the unit tests via [Jest](https://jestjs.io).
+Run `nx test fury-pages-inbox` to execute the unit tests via [Jest](https://jestjs.io).
 
 
