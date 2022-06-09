@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/fury/pages/maps/google-maps",
+  "sourceRoot": "libs/fury/pages/maps/google-maps/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/pages/maps/google-maps/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/pages/maps/google-maps/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/pages/maps/google-maps"]
+    }
+  }
+}
