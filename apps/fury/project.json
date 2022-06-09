@@ -7,13 +7,13 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/test",
+        "outputPath": "dist/apps/fury",
         "index": "apps/fury/src/index.html",
         "main": "apps/fury/src/main.ts",
         "polyfills": "apps/fury/src/polyfills.ts",
         "tsConfig": "apps/fury/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/fury/src/favicon.ico", "apps/test/src/assets"],
+        "assets": ["apps/fury/src/favicon.ico", "apps/fury/src/assets"],
         "styles": ["apps/fury/src/styles.scss"],
         "scripts": []
       },
