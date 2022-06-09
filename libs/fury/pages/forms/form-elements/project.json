@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/fury/pages/forms/form-elements",
+  "sourceRoot": "libs/fury/pages/forms/form-elements/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/pages/forms/form-elements/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/pages/forms/form-elements/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/pages/forms/form-elements"]
+    }
+  }
+}
