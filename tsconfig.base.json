@@ -35,6 +35,7 @@
       "@fury/pages/icons":["libs/fury/pages/icons/src/index.ts"],
       "@fury/pages/level5":["libs/fury/pages/level5/src/index.ts"],
       "@fury/pages/maps/google-maps":["libs/fury/pages/maps/google-maps/src/index.ts"],
+      "@fury/pages/page-layout":["libs/fury/pages/page-layout/src/index.ts"],
       "@fury/pages/tables/all-in-one-table":["libs/fury/pages/tables/all-in-one-table/src/index.ts"],
       "@kw/base/bs":["libs/kw/base/bs/src/index.ts"],
       "@kw/base/class":["libs/kw/base/class/src/index.ts"],
