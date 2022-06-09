@@ -4,26 +4,28 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { FuryCardModule } from '@fury/core/card';
-import { ClickOutsideModule } from '@fury/core';
-import { ScrollbarModule } from '@fury/core';
-import { ToolbarFullscreenToggleComponent } from './toolbar-fullscreen-toggle/toolbar-fullscreen-toggle.component';
-import { ToolbarNotificationsComponent } from './toolbar-notifications/toolbar-notifications.component';
-import { ToolbarQuickpanelToggleComponent } from './toolbar-quickpanel-toggle/toolbar-quickpanel-toggle.component';
-import { ToolbarSearchBarComponent } from './toolbar-search-bar/toolbar-search-bar.component';
-import { ToolbarSearchComponent } from './toolbar-search/toolbar-search.component';
-import { ToolbarSidenavMobileToggleComponent } from './toolbar-sidenav-mobile-toggle/toolbar-sidenav-mobile-toggle.component';
-import { ToolbarUserComponent } from './toolbar-user/toolbar-user.component';
+import { ClickOutsideModule } from '@fury/core/click-outside';
+import { ScrollbarModule } from '@fury/core/scrollbar';
+import { ToolbarFullscreenTogglerModule } from '@fury/layout/toolbar-fullscreen-toggle';
+import { ToolbarNotificationsModule } from '@fury/layout/toolbar-notifications';
+import { ToolbarQuickpanelTogglerModule } from '@fury/layout/toolbar-quickpanel-toggle';
+import { ToolbarSearchBarrModule } from '@fury/layout/toolbar-search-bar';
+import { ToolbarSearchModule } from '@fury/layout/toolbar-search';
+import { ToolbarSidenavMobileToggleModule } from '@fury/layout/toolbar-sidenav-mobile-toggle';
+import { ToolbarUserModule } from '@fury/layout/toolbar-user';
+
 import { ToolbarComponent } from './toolbar.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    MaterialModule,
     RouterModule,
+
     ScrollbarModule,
     FormsModule,
     ClickOutsideModule,
-    FuryCardModule
+    FuryCardModule,
+    ToolbarUserModule
   ],
   declarations: [
     ToolbarComponent,
