@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/fury/core/toolbar-fullscreen-toggle/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/core/toolbar-fullscreen-toggle/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/core/toolbar-fullscreen-toggle/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/core/toolbar-fullscreen-toggle"]
+    }
+  }
+}

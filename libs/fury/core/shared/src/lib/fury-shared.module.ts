@@ -13,10 +13,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 
-import { BreadcrumbsModule } from './shared/breadcrumbs/breadcrumbs.module';
-import { PageLayoutModule } from './shared/page-layout/page-layout.module';
-import { PageModule } from './shared/page/page.module';
-import { TitleModule } from './shared/title/title.module';
+import { BreadcrumbsModule } from '@fury/core/breadcrumbs';
+import { PageLayoutModule } from '@fury/core/page-layout';
+import { PageModule } from '@fury/core/page';
+import { TitleModule } from '@fury/core/page';
 
 @NgModule({
   imports: [

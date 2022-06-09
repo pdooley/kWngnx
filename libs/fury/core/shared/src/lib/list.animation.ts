@@ -1,4 +1,4 @@
-import { animate, sequence, style, transition, trigger } from '@angular/animations';
+import { animate, sequence, style, transition, trigger } from '@angular/list';
 
 
 export const LIST_FADE_ANIMATION = [

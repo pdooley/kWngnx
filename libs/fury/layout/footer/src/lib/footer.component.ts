@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 import { map } from 'rxjs/operators';
 
-import { ThemeService } from '../services/theme.service';
+import { ThemeService } from '@fury-layout-services';
 
 @Component({
   selector: 'fury-footer',

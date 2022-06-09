@@ -4,8 +4,8 @@ import { MatRadioChange } from '@angular/material/radio';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 import { map } from 'rxjs/operators';
 
-import { SidenavService } from '../sidenav/sidenav.service';
-import { Theme, ThemeService } from '../services/theme.service';
+import { SidenavService } from '@fury-layout-sidenav';
+import { Theme, ThemeService } from '@fury-layout-services';
 
 @Component({
   selector: 'fury-config-panel',

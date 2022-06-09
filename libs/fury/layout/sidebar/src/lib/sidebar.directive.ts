@@ -1,7 +1,7 @@
 import { AfterViewInit, Directive, HostBinding, Inject, Input, OnDestroy } from '@angular/core';
 import { takeUntil } from 'rxjs/operators';
 import { componentDestroyed } from '../../../../core/src/lib/shared/component-destroyed';
-import { BackdropDirective } from '../../../../core/backdrop/backdrop.directive';
+import { BackdropDirective } from '../../../../core/sidebar/sidebar.directive';
 import { DOCUMENT } from '@angular/common';
 
 @Directive({
@@ -14,7 +14,7 @@ import { DOCUMENT } from '@angular/common';
 export class SidebarDirective implements AfterViewInit, OnDestroy {
 
   @Input() position: 'left' | 'right' = 'left';
-  @Input() backdrop: BackdropDirective;
+  @Input() sidebar: BackdropDirective;
   @Input() invisibleBackdrop: boolean;
 
   constructor(@Inject(DOCUMENT) private document: Document) {}
@@ -43,17 +43,17 @@ export class SidebarDirective implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.backdrop.closed.pipe(
+    this.sidebar.closed.pipe(
       takeUntil(componentDestroyed(this))
     ).subscribe(() => this.close());
   }
 
   showBackdrop() {
-    if (this.backdrop) {
+    if (this.sidebar) {
       if (this.invisibleBackdrop) {
-        this.backdrop.showInvisible();
+        this.sidebar.showInvisible();
       } else {
-        this.backdrop.show();
+        this.sidebar.show();
       }
 
       this.enableScrollblock();
@@ -61,8 +61,8 @@ export class SidebarDirective implements AfterViewInit, OnDestroy {
   }
 
   hideBackdrop() {
-    if (this.backdrop) {
-      this.backdrop.hide();
+    if (this.sidebar) {
+      this.sidebar.hide();
     }
 
     this.disableScrollblock();
