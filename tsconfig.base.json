@@ -24,6 +24,7 @@
       "@fury/core/chart-widget": ["libs/fury/core/chart-widget/src/index.ts"],
       "@fury/core/click-outside": ["libs/fury/core/click-outside/src/index.ts"],
       "@fury/core/highlightjs": ["libs/fury/core/highlightjs/src/index.ts"],
+      "@fury/core/layout": ["libs/fury/core/layout/src/index.ts"],
       "@fury/core/list": ["libs/fury/core/list/src/index.ts"],
       "@fury/core/loading-indicator": ["libs/fury/core/loading-indicator/src/index.ts"],
       "@fury/core/loading-overlay": ["libs/fury/core/loading-overlay/src/index.ts"],

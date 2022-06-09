@@ -12,6 +12,7 @@
     "fury-core-click-outside": "libs/fury/core-click-outside",
     "fury-core-highlightjs": "libs/fury/core-highlightjs",
     "fury-core-list": "libs/fury/core-list",
+    "fury-core-layout": "libs/fury/core-layout",
     "fury-core-loading-indicator": "libs/fury/core-loading-indicator",
     "fury-core-loading-overlay": "libs/fury/core-loading-overlay",
     "fury-core-page": "libs/fury/core-page",
