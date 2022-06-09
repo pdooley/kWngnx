@@ -54,35 +54,35 @@ const routes: Routes = [
       },
       {
         path: 'icons',
-        loadChildren: () => import('./pages/icons/icons.module').then(m => m.IconsModule),
+        loadChildren: () => import('@fury/pages/icons).then(m => m.IconsModule),
       },
       {
         path: 'page-layouts',
-        loadChildren: () => import('./pages/page-layouts/page-layouts.module').then(m => m.PageLayoutsModule),
+        loadChildren: () => import('@fury/pages/page-layouts').then(m => m.PageLayoutsModule),
       },
       {
         path: 'maps/google-maps',
-        loadChildren: () => import('./pages/maps/google-maps/google-maps.module').then(m => m.GoogleMapsModule),
+        loadChildren: () => import('@fury/pages/maps/google-maps').then(m => m.GoogleMapsModule),
       },
       {
         path: 'tables/all-in-one-table',
-        loadChildren: () => import('./pages/tables/all-in-one-table/all-in-one-table.module').then(m => m.AllInOneTableModule),
+        loadChildren: () => import('@fury/pages/tables/all-in-one-table').then(m => m.AllInOneTableModule),
       },
       {
         path: 'drag-and-drop',
-        loadChildren: () => import('./pages/drag-and-drop/drag-and-drop.module').then(m => m.DragAndDropModule)
+        loadChildren: () => import('@fury/pages/drag-and-drop').then(m => m.DragAndDropModule)
       },
       {
         path: 'editor',
-        loadChildren: () => import('./pages/editor/editor.module').then(m => m.EditorModule),
+        loadChildren: () => import('@fury/pages/editor').then(m => m.EditorModule),
       },
       {
         path: 'blank',
-        loadChildren: () => import('./pages/blank/blank.module').then(m => m.BlankModule),
+        loadChildren: () => import('@fury/pages/blank').then(m => m.BlankModule),
       },
       {
         path: 'level1/level2/level3/level4/level5',
-        loadChildren: () => import('./pages/level5/level5.module').then(m => m.Level5Module),
+        loadChildren: () => import('@fury/pages/level5').then(m => m.Level5Module),
       },
     ]
   }
