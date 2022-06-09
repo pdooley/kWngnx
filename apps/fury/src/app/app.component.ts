@@ -5,10 +5,10 @@ import { ActivatedRoute } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { Platform } from '@angular/cdk/platform';
 
-import { SidenavService } from '@fury/layout';
-import { ThemeService } from '@fury/layout';
+import { SidenavService } from '@fury/layout/sidenav';
+import { ThemeService } from '@fury/layout/services';
 
-import { SplashScreenService } from '@fury/core';
+import { SplashScreenService } from '@fury/layout/services';
 
 @Component({
   selector: 'fury-root',

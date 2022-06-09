@@ -8,8 +8,11 @@ import { MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarConfig } from '@angular/mater
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LayoutModule } from '@fury/layout';
-import { PendingInterceptorModule } from '@fury/core';
+import { LayoutModule } from '@fury/core/layout';
+import { MaterialModule } from '@fury/core';
+import { SidenavModule } from '@fury/layout/sidenav';
+
+import { PendingInterceptorModule } from '@fury/core/loading-indicator';
 
 @NgModule({
   imports: [
@@ -23,6 +26,7 @@ import { PendingInterceptorModule } from '@fury/core';
 
     // Layout Module (Sidenav, Toolbar, Quickpanel, Content)
     LayoutModule,
+    SidenavModule,
 
     // Displays Loading Bar when a Route Request or HTTP Request is pending
     PendingInterceptorModule,
