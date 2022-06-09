@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'fury-ng-pages',
-  preset: '../../jest.preset.js',
+  displayName: 'fury-pages-coming-soon',
+  preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/fury/ng/pages'
+  coverageDirectory: '../../../../coverage/libs/fury/pages/coming-soon'
 };
