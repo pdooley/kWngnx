@@ -1,7 +1,7 @@
 import { AfterViewInit, Directive, HostBinding, Inject, Input, OnDestroy } from '@angular/core';
 import { takeUntil } from 'rxjs/operators';
 import { componentDestroyed } from '../../../../core/src/lib/shared/component-destroyed';
-import { BackdropDirective } from '../../../../core/src/lib/shared/backdrop/backdrop.directive';
+import { BackdropDirective } from '../../../../core/backdrop/backdrop.directive';
 import { DOCUMENT } from '@angular/common';
 
 @Directive({
