@@ -13,6 +13,7 @@
     "fury-pages-auth-login": "libs/fury/pages/authentication/login",
     "fury-pages-auth-register": "libs/fury/pages/authentication/register",
     "fury-pages-coming-soon": "libs/fury/pages/coming-soon",
+    "fury-pages-blank": "libs/fury/pages/blank",
     "fury-pages-components": "libs/fury/pages/components",
     "fury-pages-dashboard": "libs/fury/pages/dashboard",
     "fury-pages-editor": "libs/fury/pages/editor",

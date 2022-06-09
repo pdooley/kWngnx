@@ -26,6 +26,7 @@
       "@fury/pages/auth/forgot-password":["libs/fury/pages/authentication/forgot-password/src/index.ts"],
       "@fury/pages/auth/login":["libs/fury/pages/authentication/login/src/index.ts"],
       "@fury/pages/auth/register":["libs/fury/pages/authentication/register/src/index.ts"],
+      "@fury/pages/blank":["libs/fury/pages/blank/src/index.ts"],
       "@fury/pages/coming-soon":["libs/fury/pages/coming-soon/src/index.ts"],
       "@fury/pages/dashboard":["libs/fury/pages/dashboard/src/index.ts"],
       "@fury/pages/components":["libs/fury/pages/components/src/index.ts"],
