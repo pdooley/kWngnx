@@ -10,6 +10,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { BreadcrumbsModule } from './shared/breadcrumbs/breadcrumbs.module';
 import { TitleModule } from './shared/title/title.module';
 import { PageModule } from './shared/page/page.module';

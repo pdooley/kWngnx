@@ -5,7 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { Platform } from '@angular/cdk/platform';
 
-import { SidenavService } from '@fury/ng/layout';
+import { SidenavService } from '@fury/layout';
 import { ThemeService } from '@fury/core';
 
 import { SplashScreenService } from '@fury/core';

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { SidenavService } from '../../app/layout/sidenav/sidenav.service';
+import { SidenavService } from '@fury/layout';
 
 export type Theme = 'fury-default' | 'fury-light' | 'fury-dark' | 'fury-flat';
 export type ThemePosition = 'fixed' | 'above-fixed' | 'static';
