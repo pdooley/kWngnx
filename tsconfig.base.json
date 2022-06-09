@@ -30,6 +30,7 @@
       "@fury/pages/coming-soon":["libs/fury/pages/coming-soon/src/index.ts"],
       "@fury/pages/dashboard":["libs/fury/pages/dashboard/src/index.ts"],
       "@fury/pages/components":["libs/fury/pages/components/src/index.ts"],
+      "@fury/pages/drag-and-drop" :["libs/fury/pages/drag-and-drop/src/index.ts"],
       "@fury/pages/editor" :["libs/fury/pages/editor/src/index.ts"],
       "@fury/pages/forms/form-elements":["libs/fury/pages/forms/form-elements/src/index.ts"],
       "@fury/pages/forms/form-wizard":["libs/fury/pages/forms/form-wizard/src/index.ts"],
