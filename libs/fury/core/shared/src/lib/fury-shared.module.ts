@@ -16,7 +16,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { BreadcrumbsModule } from '@fury/core/breadcrumbs';
 import { PageLayoutModule } from '@fury/core/page-layout';
 import { PageModule } from '@fury/core/page';
-import { TitleModule } from '@fury/core/page';
+import { TitleModule } from '@fury/core/title';
 
 @NgModule({
   imports: [
@@ -24,13 +24,8 @@ import { TitleModule } from '@fury/core/page';
   ],
   declarations: [],
   exports: [
-    BreadcrumbsModule,
-    TitleModule,
-    PageModule,
-    RouterModule,
-    PageLayoutModule,
 
-    // External
+    // Material
     FlexLayoutModule,
     FontAwesomeModule,
     MatButtonModule,
@@ -41,7 +36,14 @@ import { TitleModule } from '@fury/core/page';
     MatRadioModule,
     MatRippleModule,
     MatSlideToggleModule,
-    ScrollingModule
+    ScrollingModule,
+
+    BreadcrumbsModule,
+    PageLayoutModule,
+    PageModule,
+    RouterModule,
+    TitleModule,
+
   ]
 })
 export class FurySharedModule {
