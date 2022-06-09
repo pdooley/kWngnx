@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/layout/toolbar/toolbar-notifications'
+  coverageDirectory: '../../../../../coverage/libs/fury/layout/toolbar/toolbar-quickpanel-toggle'
 };

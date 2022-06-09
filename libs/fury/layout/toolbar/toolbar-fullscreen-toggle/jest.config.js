@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-layout-toolbar-notifications',
+  displayName: 'fury-layout-toolbar-fullscreen-toggle',
   preset: '../../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/layout/toolbar/toolbar-notifications'
+  coverageDirectory: '../../../../../coverage/libs/fury/layout/toolbar/toolbar-fullscreen-toggle'
 };

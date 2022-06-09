@@ -1,6 +1,6 @@
 module.exports = {
-  displayName: 'fury-layout-toolbar-notifications',
-  preset: '../../../../../jest.preset.js',
+  displayName: 'fury-layout-toolbar',
+  preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/layout/toolbar/toolbar-notifications'
+  coverageDirectory: '../../../../coverage/libs/fury/layout/toolbar'
 };

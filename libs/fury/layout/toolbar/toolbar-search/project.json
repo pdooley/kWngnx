@@ -1,22 +1,22 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/fury/core/toolbar/toolbar-notifications/src",
+  "sourceRoot": "libs/fury/core/toolbar/toolbar-search/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/core/toolbar/toolbar-notifications/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/core/toolbar/toolbar-search/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/core/toolbar/toolbar-notifications/jest.config.js",
+        "jestConfig": "libs/fury/core/toolbar/toolbar-search/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/core/toolbar/toolbar-notifications"]
+      "outputs": ["coverage/libs/fury/core/toolbar/toolbar-search"]
     }
   }
 }
