@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/test/src",
-  "prefix": "dynamic",
+  "prefix": "fury",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
