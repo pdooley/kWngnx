@@ -2,11 +2,11 @@ import { DOCUMENT } from '@angular/common';
 import { Component, Inject, Renderer2 } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { SidenavService } from './layout/sidenav/sidenav.service';
-import { ThemeService } from '../@fury/services/theme.service';
+import { ThemeService } from '@fury/core';
 import { ActivatedRoute } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { Platform } from '@angular/cdk/platform';
-import { SplashScreenService } from '../@fury/services/splash-screen.service';
+import { SplashScreenService } from '@fury/core';
 
 @Component({
   selector: 'fury-root',
@@ -22,7 +22,7 @@ export class AppComponent {
               @Inject(DOCUMENT) private document: Document,
               private platform: Platform,
               private route: ActivatedRoute,
-              private splashScreenService: SplashScreenService) 
+              private splashScreenService: SplashScreenService)
   {
     this.route.queryParamMap.pipe(
       filter(queryParamMap => queryParamMap.has('style'))

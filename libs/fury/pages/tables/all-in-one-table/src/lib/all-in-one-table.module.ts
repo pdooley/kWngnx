@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { BreadcrumbsModule } from '../../../../@fury/shared/breadcrumbs/breadcrumbs.module';
-import { ListModule } from '../../../../@fury/shared/list/list.module';
-import { MaterialModule } from '../../../../@fury/shared/material-components.module';
+import { BreadcrumbsModule } from '@fury/core';
+import { ListModule } from '@fury/core';
+import { MaterialModule } from '@fury/core';
 import { AllInOneTableRoutingModule } from './all-in-one-table-routing.module';
 import { AllInOneTableComponent } from './all-in-one-table.component';
 import { CustomerCreateUpdateModule } from './customer-create-update/customer-create-update.module';

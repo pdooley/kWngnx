@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { SidebarDirective } from '../../@fury/shared/sidebar/sidebar.directive';
+import { SidebarDirective } from '@fury/core';
 import { SidenavService } from './sidenav/sidenav.service';
 import { filter, map, startWith } from 'rxjs/operators';
-import { ThemeService } from '../../@fury/services/theme.service';
+import { ThemeService } from '@fury/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { checkRouterChildsData } from '../../@fury/utils/check-router-childs-data';
 

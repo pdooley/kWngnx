@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { SidenavItem } from './sidenav-item/sidenav-item.interface';
 import { SidenavService } from './sidenav.service';
-import { ThemeService } from '../../../@fury/services/theme.service';
+import { ThemeService } from '@fury/core';
 
 @Component({
   selector: 'fury-sidenav',

@@ -5,7 +5,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Observable, of, ReplaySubject } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { ListColumn } from '../../../../@fury/shared/list/list-column.model';
+import { ListColumn } from '@fury/core';
 import { ALL_IN_ONE_TABLE_DEMO_DATA } from './all-in-one-table.demo';
 import { CustomerCreateUpdateComponent } from './customer-create-update/customer-create-update.component';
 import { Customer } from './customer-create-update/customer.model';

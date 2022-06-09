@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { QuillModule } from 'ngx-quill';
-import { MaterialModule } from '../../../@fury/shared/material-components.module';
+import { MaterialModule } from '@fury/core';
 import { EditorRoutingModule } from './editor-routing.module';
 import { EditorComponent } from './editor.component';
 import { FurySharedModule } from '../../../@fury/fury-shared.module';

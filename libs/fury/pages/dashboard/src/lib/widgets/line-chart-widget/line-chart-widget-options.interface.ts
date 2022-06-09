@@ -1,4 +1,4 @@
-import { ChartWidgetOptions } from '../../../../../@fury/shared/chart-widget/chart-widget-options.interface';
+import { ChartWidgetOptions } from '@fury/core';
 
 export class LineChartWidgetOptions extends ChartWidgetOptions {
   gradientFill?: {

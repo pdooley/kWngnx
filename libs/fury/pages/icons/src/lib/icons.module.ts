@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { BreadcrumbsModule } from '../../../@fury/shared/breadcrumbs/breadcrumbs.module';
-import { FuryCardModule } from '../../../@fury/shared/card/card.module';
-import { MaterialModule } from '../../../@fury/shared/material-components.module';
+import { BreadcrumbsModule } from '@fury/core';
+import { FuryCardModule } from '@fury/core';
+import { MaterialModule } from '@fury/core';
 import { IconsRoutingModule } from './icons-routing.module';
 import { IconsComponent } from './icons.component';
-import { ScrollbarModule } from '../../../@fury/shared/scrollbar/scrollbar.module';
+import { ScrollbarModule } from '@fury/core';
 
 @NgModule({
   imports: [

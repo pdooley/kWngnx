@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { BreadcrumbsModule } from '../../../@fury/shared/breadcrumbs/breadcrumbs.module';
-import { FuryCardModule } from '../../../@fury/shared/card/card.module';
+import { BreadcrumbsModule } from '@fury/core';
+import { FuryCardModule } from '@fury/core';
 import { Level5RoutingModule } from './level5-routing.module';
 import { Level5Component } from './level5.component';
 

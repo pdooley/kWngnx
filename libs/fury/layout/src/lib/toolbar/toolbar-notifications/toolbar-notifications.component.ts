@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { LIST_FADE_ANIMATION } from '../../../../@fury/shared/list.animation';
+import { LIST_FADE_ANIMATION } from '@fury/core';
 
 @Component({
   selector: 'fury-toolbar-notifications',

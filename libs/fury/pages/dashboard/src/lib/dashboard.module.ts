@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MaterialModule } from '../../../@fury/shared/material-components.module';
+import { MaterialModule } from '@fury/core';
 import { AdvancedPieChartWidgetModule } from './widgets/advanced-pie-chart-widget/advanced-pie-chart-widget.module';
 import { AudienceOverviewWidgetModule } from './widgets/audience-overview-widget/audience-overview-widget.module';
 import { BarChartWidgetModule } from './widgets/bar-chart-widget/bar-chart-widget.module';

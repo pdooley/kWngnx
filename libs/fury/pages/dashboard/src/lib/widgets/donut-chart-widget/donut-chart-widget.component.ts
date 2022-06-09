@@ -3,8 +3,8 @@ import * as Chart from 'chart.js';
 import { ChartData, ChartOptions } from 'chart.js';
 import * as ChartJSPieceLabelPlugin from 'chart.piecelabel.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
-import { defaultChartOptions } from '../../../../../@fury/shared/chart-widget/chart-widget-defaults';
-import { ChartWidgetOptions } from '../../../../../@fury/shared/chart-widget/chart-widget-options.interface';
+import { defaultChartOptions } from '@fury/core';
+import { ChartWidgetOptions } from '@fury/core';
 
 @Component({
   selector: 'fury-donut-chart-widget',

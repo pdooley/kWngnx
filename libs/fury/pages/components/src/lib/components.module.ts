@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BreadcrumbsModule } from '../../../@fury/shared/breadcrumbs/breadcrumbs.module';
-import { HighlightModule } from '../../../@fury/shared/highlightjs/highlight.module';
-import { MaterialModule } from '../../../@fury/shared/material-components.module';
-import { ScrollbarModule } from '../../../@fury/shared/scrollbar/scrollbar.module';
+import { BreadcrumbsModule } from '@fury/core';
+import { HighlightModule } from '@fury/core';
+import { MaterialModule } from '@fury/core';
+import { ScrollbarModule } from '@fury/core';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';

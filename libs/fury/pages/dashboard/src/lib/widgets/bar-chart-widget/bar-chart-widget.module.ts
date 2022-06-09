@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { LoadingOverlayModule } from '../../../../../@fury/shared/loading-overlay/loading-overlay.module';
-import { MaterialModule } from '../../../../../@fury/shared/material-components.module';
+import { LoadingOverlayModule } from '@fury/core';
+import { MaterialModule } from '@fury/core';
 import { BarChartWidgetComponent } from './bar-chart-widget.component';
-import { FuryCardModule } from '../../../../../@fury/shared/card/card.module';
+import { FuryCardModule } from '@fury/core';
 import { ChartsModule } from 'ng2-charts';
 
 @NgModule({

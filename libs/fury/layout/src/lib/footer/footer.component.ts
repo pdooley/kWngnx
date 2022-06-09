@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ThemeService } from '../../../@fury/services/theme.service';
+import { ThemeService } from '@fury/core';
 import { map } from 'rxjs/operators';
 
 @Component({

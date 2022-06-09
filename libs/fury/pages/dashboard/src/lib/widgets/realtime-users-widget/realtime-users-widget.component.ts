@@ -3,7 +3,7 @@ import * as Chart from 'chart.js';
 import { ChartConfiguration, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
 import { Observable } from 'rxjs';
-import { defaultChartOptions } from '../../../../../@fury/shared/chart-widget/chart-widget-defaults';
+import { defaultChartOptions } from '@fury/core';
 import { RealtimeUsersWidgetData, RealtimeUsersWidgetPages } from './realtime-users-widget.interface';
 
 @Component({

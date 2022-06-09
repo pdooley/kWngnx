@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Theme, ThemeService } from '../../../@fury/services/theme.service';
+import { Theme, ThemeService } from '@fury/core';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 import { MatRadioChange } from '@angular/material/radio';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
