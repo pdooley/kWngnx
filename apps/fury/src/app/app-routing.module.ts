@@ -5,15 +5,15 @@ import { LayoutComponent } from '@fury/layout';
 const routes: Routes = [
   {
     path: 'login',
-    loadChildren: () => import('@fury/pages/auth/login').then(m => m.LoginModule),
+    loadChildren: () => import('@fury/pages/authentication/login').then(m => m.LoginModule),
   },
   {
     path: 'register',
-    loadChildren: () => import('@fury/pages/auth/register').then(m => m.RegisterModule),
+    loadChildren: () => import('@fury/pages/authentication/register').then(m => m.RegisterModule),
   },
   {
     path: 'forgot-password',
-    loadChildren: () => import('@fury/pages/auth/forgot-password').then(m => m.ForgotPasswordModule),
+    loadChildren: () => import('@fury/pages/authentication/forgot-password').then(m => m.ForgotPasswordModule),
   },
   {
     path: 'coming-soon',

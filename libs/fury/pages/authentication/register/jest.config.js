@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-pages-auth-register',
+  displayName: 'fury-pages-authentication-register',
   preset: '../../../../../jest.preset.js',
   globals: {
     'ts-jest': {
