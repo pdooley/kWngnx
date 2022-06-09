@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/authentication/login",
   "sourceRoot": "libs/fury/pages/authentication/login/src",
   "tags": [],
   "targets": {

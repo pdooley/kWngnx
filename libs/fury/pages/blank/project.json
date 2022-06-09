@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/blank",
   "sourceRoot": "libs/fury/pages/blank/src",
   "tags": [],
   "targets": {

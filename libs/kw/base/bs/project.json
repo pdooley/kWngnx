@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/kw/base/bs",
   "sourceRoot": "libs/kw/base/bs/src",
   "tags": [],
   "targets": {

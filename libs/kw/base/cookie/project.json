@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/kw/base/cookie",
   "sourceRoot": "libs/kw/base/cookie/src",
   "tags": [],
   "targets": {

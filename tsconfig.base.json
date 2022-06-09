@@ -15,48 +15,66 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dw":["libs/demo/src/index.ts"],
-      "@fury":["app/fury/src/index.ts"],
-      "@fury/core":["libs/fury/core/src/index.ts"],
-      "@fury/layout":["libs/fury/layout/src/index.ts"],
-      "@fury/ng/pages":["libs/fury/ng/pages/src/index.ts"],
-      "@fury/pages/apps/calendar":["libs/fury/pages/apps/calendar/src/index.ts"],
-      "@fury/pages/apps/chat":["libs/fury/pages/apps/chat/src/index.ts"],
-      "@fury/pages/apps/inbox":["libs/fury/pages/apps/inbox/src/index.ts"],
-      "@fury/pages/authentication/forgot-password":["libs/fury/pages/authentication/forgot-password/src/index.ts"],
-      "@fury/pages/authentication/login":["libs/fury/pages/authentication/login/src/index.ts"],
-      "@fury/pages/authentication/register":["libs/fury/pages/authentication/register/src/index.ts"],
-      "@fury/pages/blank":["libs/fury/pages/blank/src/index.ts"],
-      "@fury/pages/coming-soon":["libs/fury/pages/coming-soon/src/index.ts"],
-      "@fury/pages/dashboard":["libs/fury/pages/dashboard/src/index.ts"],
-      "@fury/pages/components":["libs/fury/pages/components/src/index.ts"],
-      "@fury/pages/drag-and-drop" :["libs/fury/pages/drag-and-drop/src/index.ts"],
-      "@fury/pages/editor" :["libs/fury/pages/editor/src/index.ts"],
-      "@fury/pages/forms/form-elements":["libs/fury/pages/forms/form-elements/src/index.ts"],
-      "@fury/pages/forms/form-wizard":["libs/fury/pages/forms/form-wizard/src/index.ts"],
-      "@fury/pages/icons":["libs/fury/pages/icons/src/index.ts"],
-      "@fury/pages/level5":["libs/fury/pages/level5/src/index.ts"],
-      "@fury/pages/maps/google-maps":["libs/fury/pages/maps/google-maps/src/index.ts"],
-      "@fury/pages/page-layouts":["libs/fury/pages/page-layouts/src/index.ts"],
-      "@fury/pages/tables/all-in-one-table":["libs/fury/pages/tables/all-in-one-table/src/index.ts"],
-      "@kw/base/bs":["libs/kw/base/bs/src/index.ts"],
-      "@kw/base/class":["libs/kw/base/class/src/index.ts"],
-      "@kw/base/cookie":["libs/kw/base/cookie/src/index.ts"],
-      "@kw/base/core":["libs/kw/base/core/src/index.ts"],
-      "@kw/base/ctrl":["libs/kw/base/ctrl/src/index.ts"],
-      "@kw/base/http":["libs/kw/base/http/src/index.ts"],
-      "@kw/base/key":["libs/kw/base/key/src/index.ts"],
-      "@kw/base/state":["libs/kw/base/state/src/index.ts"],
-      "@kw/base/type":["libs/kw/base/type/src/index.ts"],
-      "@kw/ng/bs":["libs/kw/ng/bs/src/index.ts"],
-      "@kw/ng/class":["libs/kw/ng/class/src/index.ts"],
-      "@kw/ng/core":["libs/kw/ng/core/src/index.ts"],
-      "@kw/ng/http":["libs/kw/ng/http/src/index.ts"],
-      "@kw/ng/key":["libs/kw/ng/key/src/index.ts"],
-      "@kw/ng/page":["libs/kw/ng/page/src/index.ts"],
-      "@kw/ng/srvc":["libs/kw/ng/srvc/src/index.ts"],
-      "@kw/ng/state":["libs/kw/ng/state/src/index.ts"],
-      "@kw/ng/type":["libs/kw/ng/type/src/index.ts"]
+      "@dw": ["libs/demo/src/index.ts"],
+      "@fury": ["app/fury/src/index.ts"],
+      "@fury/core": ["libs/fury/core/src/index.ts"],
+      "@fury/layout": ["libs/fury/layout/src/index.ts"],
+      "@fury/ng/pages": ["libs/fury/ng/pages/src/index.ts"],
+      "@fury/pages/apps/calendar": [
+        "libs/fury/pages/apps/calendar/src/index.ts"
+      ],
+      "@fury/pages/apps/chat": ["libs/fury/pages/apps/chat/src/index.ts"],
+      "@fury/pages/apps/inbox": ["libs/fury/pages/apps/inbox/src/index.ts"],
+      "@fury/pages/authentication/forgot-password": [
+        "libs/fury/pages/authentication/forgot-password/src/index.ts"
+      ],
+      "@fury/pages/authentication/login": [
+        "libs/fury/pages/authentication/login/src/index.ts"
+      ],
+      "@fury/pages/authentication/register": [
+        "libs/fury/pages/authentication/register/src/index.ts"
+      ],
+      "@fury/pages/blank": ["libs/fury/pages/blank/src/index.ts"],
+      "@fury/pages/coming-soon": ["libs/fury/pages/coming-soon/src/index.ts"],
+      "@fury/pages/components": ["libs/fury/pages/components/src/index.ts"],
+      "@fury/pages/dashboard": ["libs/fury/pages/dashboard/src/index.ts"],
+      "@fury/pages/drag-and-drop": [
+        "libs/fury/pages/drag-and-drop/src/index.ts"
+      ],
+      "@fury/pages/editor": ["libs/fury/pages/editor/src/index.ts"],
+      "@fury/pages/forms/form-elements": [
+        "libs/fury/pages/forms/form-elements/src/index.ts"
+      ],
+      "@fury/pages/forms/form-wizard": [
+        "libs/fury/pages/forms/form-wizard/src/index.ts"
+      ],
+      "@fury/pages/icons": ["libs/fury/pages/icons/src/index.ts"],
+      "@fury/pages/level5": ["libs/fury/pages/level5/src/index.ts"],
+      "@fury/pages/maps/google-maps": [
+        "libs/fury/pages/maps/google-maps/src/index.ts"
+      ],
+      "@fury/pages/page-layouts": ["libs/fury/pages/page-layouts/src/index.ts"],
+      "@fury/pages/tables/all-in-one-table": [
+        "libs/fury/pages/tables/all-in-one-table/src/index.ts"
+      ],
+      "@kw/base/bs": ["libs/kw/base/bs/src/index.ts"],
+      "@kw/base/class": ["libs/kw/base/class/src/index.ts"],
+      "@kw/base/cookie": ["libs/kw/base/cookie/src/index.ts"],
+      "@kw/base/core": ["libs/kw/base/core/src/index.ts"],
+      "@kw/base/ctrl": ["libs/kw/base/ctrl/src/index.ts"],
+      "@kw/base/http": ["libs/kw/base/http/src/index.ts"],
+      "@kw/base/key": ["libs/kw/base/key/src/index.ts"],
+      "@kw/base/state": ["libs/kw/base/state/src/index.ts"],
+      "@kw/base/type": ["libs/kw/base/type/src/index.ts"],
+      "@kw/ng/bs": ["libs/kw/ng/bs/src/index.ts"],
+      "@kw/ng/class": ["libs/kw/ng/class/src/index.ts"],
+      "@kw/ng/core": ["libs/kw/ng/core/src/index.ts"],
+      "@kw/ng/http": ["libs/kw/ng/http/src/index.ts"],
+      "@kw/ng/key": ["libs/kw/ng/key/src/index.ts"],
+      "@kw/ng/page": ["libs/kw/ng/page/src/index.ts"],
+      "@kw/ng/srvc": ["libs/kw/ng/srvc/src/index.ts"],
+      "@kw/ng/state": ["libs/kw/ng/state/src/index.ts"],
+      "@kw/ng/type": ["libs/kw/ng/type/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

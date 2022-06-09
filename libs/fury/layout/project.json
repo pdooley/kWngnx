@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/layout",
   "sourceRoot": "libs/fury/layout/src",
   "tags": [],
   "targets": {

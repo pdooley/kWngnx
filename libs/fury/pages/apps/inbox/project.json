@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/apps/inbox",
   "sourceRoot": "libs/fury/pages/apps/inbox/src",
   "tags": [],
   "targets": {

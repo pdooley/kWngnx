@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/tables/all-in-one-table",
   "sourceRoot": "libs/fury/pages/tables/all-in-one-table/src",
   "tags": [],
   "targets": {

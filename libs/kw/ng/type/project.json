@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/kw/ng/type",
   "sourceRoot": "libs/kw/ng/srvc/type",
   "tags": [],
   "targets": {

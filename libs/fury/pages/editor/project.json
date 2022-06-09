@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/editor",
   "sourceRoot": "libs/fury/pages/editor/src",
   "tags": [],
   "targets": {

@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/drag-and-drop",
   "sourceRoot": "libs/fury/pages/drag-and-drop/src",
   "tags": [],
   "targets": {

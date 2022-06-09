@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/coming-soon",
   "sourceRoot": "libs/fury/pages/coming-soon/src",
   "tags": [],
   "targets": {

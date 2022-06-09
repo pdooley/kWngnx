@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/dashboard",
   "sourceRoot": "libs/fury/pages/dashboard/src",
   "tags": [],
   "targets": {

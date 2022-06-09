@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/forms/form-elements",
   "sourceRoot": "libs/fury/pages/forms/form-elements/src",
   "tags": [],
   "targets": {

@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/icons",
   "sourceRoot": "libs/fury/pages/icons/src",
   "tags": [],
   "targets": {

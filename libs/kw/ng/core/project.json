@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/kw/ng/core",
   "sourceRoot": "libs/kw/ng/core/src",
   "tags": [],
   "targets": {

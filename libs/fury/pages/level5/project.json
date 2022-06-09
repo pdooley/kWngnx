@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/level5",
   "sourceRoot": "libs/fury/pages/level5/src",
   "tags": [],
   "targets": {

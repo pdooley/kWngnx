@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/maps/google-maps",
   "sourceRoot": "libs/fury/pages/maps/google-maps/src",
   "tags": [],
   "targets": {

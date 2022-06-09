@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/demo",
   "sourceRoot": "libs/demo/src",
   "tags": [],
   "targets": {

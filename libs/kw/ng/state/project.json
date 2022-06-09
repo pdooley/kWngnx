@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/kw/ng/state",
   "sourceRoot": "libs/kw/ng/state/src",
   "tags": [],
   "targets": {

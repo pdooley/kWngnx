@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/core",
   "sourceRoot": "libs/fury/core/src",
   "tags": [],
   "targets": {

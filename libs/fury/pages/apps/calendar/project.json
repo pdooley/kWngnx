@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/apps/calendar",
   "sourceRoot": "libs/fury/pages/apps/calendar/src",
   "tags": [],
   "targets": {

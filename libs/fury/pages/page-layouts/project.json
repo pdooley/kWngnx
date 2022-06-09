@@ -1,6 +1,5 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/page-layouts",
   "sourceRoot": "libs/fury/pages/page-layouts/src",
   "tags": [],
   "targets": {

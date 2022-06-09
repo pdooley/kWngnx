@@ -21,12 +21,10 @@
     "fury-pages-forms-form-elements": "libs/fury/pages/forms/form-elements",
     "fury-pages-forms-form-wizard": "libs/fury/pages/forms/form-wizard",
     "fury-pages-icons": "libs/fury/pages/icons",
-    "fury-pages-level5":  "libs/fury/pages/level5",
-    "fury-pages-maps-google-maps":  "libs/fury/pages/maps/google-maps",
-    "fury-pages-tables-all-in-one-table": "libs/fury/pages/tables/all-in-one-table",
+    "fury-pages-level5": "libs/fury/pages/level5",
+    "fury-pages-maps-google-maps": "libs/fury/pages/maps/google-maps",
     "fury-pages-page-layouts": "libs/fury/pages/page-layouts",
-    "web": "apps/web",
-    "web-e2e": "apps/web-e2e",
+    "fury-pages-tables-all-in-one-table": "libs/fury/pages/tables/all-in-one-table",
     "kw-base-bs": "libs/kw/base/bs",
     "kw-base-class": "libs/kw/base/class",
     "kw-base-cookie": "libs/kw/base/cookie",
@@ -44,6 +42,8 @@
     "kw-ng-page": "libs/kw/ng/page",
     "kw-ng-srvc": "libs/kw/ng/srvc",
     "kw-ng-state": "libs/kw/ng/state",
-    "kw-ng-type": "libs/kw/ng/type"
+    "kw-ng-type": "libs/kw/ng/type",
+    "web": "apps/web",
+    "web-e2e": "apps/web-e2e"
   }
 }
