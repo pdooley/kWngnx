@@ -2,6 +2,7 @@ export * from './config-panel';
 export * from './footer';
 export * from './navigation';
 export * from './quickpanel';
+export * from './services';
 export * from './sidenav';
 export * from './toolbar';
 export * from './layout.component';
