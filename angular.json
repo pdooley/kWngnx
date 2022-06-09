@@ -43,6 +43,8 @@
     "kw-ng-srvc": "libs/kw/ng/srvc",
     "kw-ng-state": "libs/kw/ng/state",
     "kw-ng-type": "libs/kw/ng/type",
+    "test": "apps/test",
+    "test-e2e": "apps/test-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
