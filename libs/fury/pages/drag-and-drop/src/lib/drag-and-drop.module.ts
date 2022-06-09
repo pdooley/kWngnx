@@ -8,7 +8,7 @@ import { MaterialModule } from '@fury/core';
 import { ScrollbarModule } from '@fury/core';
 import { DragAndDropRoutingModule } from './drag-and-drop-routing.module';
 import { DragAndDropComponent } from './drag-and-drop.component';
-import { FurySharedModule } from '../../../@fury/fury-shared.module';
+import { FurySharedModule } from '@fury/core'
 
 @NgModule({
   imports: [

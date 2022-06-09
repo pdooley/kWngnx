@@ -13,5 +13,5 @@ export * from './material-components.module';
 export * from './page';
 export * from './page-layout';
 export * from './scrollbar';
-export * from './sidebar';
+export * from '../../../../layout/src/lib/sidebar';
 export * from './title';

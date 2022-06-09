@@ -1,12 +1,13 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, Renderer2 } from '@angular/core';
-import { MatIconRegistry } from '@angular/material/icon';
-import { SidenavService } from './layout/sidenav/sidenav.service';
-import { ThemeService } from '@fury/core';
 import { ActivatedRoute } from '@angular/router';
-import { filter } from 'rxjs/operators';
+import { Component, Inject, Renderer2 } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { MatIconRegistry } from '@angular/material/icon';
 import { Platform } from '@angular/cdk/platform';
+import { filter } from 'rxjs/operators';
+
+import { SidenavService } from '@fury/layout';
 import { SplashScreenService } from '@fury/core';
+import { ThemeService } from '@fury/layout';
 
 @Component({
   selector: 'fury-root',

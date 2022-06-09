@@ -1,6 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ThemeService } from '@fury/core';
+
 import { map } from 'rxjs/operators';
+
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'fury-footer',

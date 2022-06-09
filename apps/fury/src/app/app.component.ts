@@ -6,7 +6,7 @@ import { filter } from 'rxjs/operators';
 import { Platform } from '@angular/cdk/platform';
 
 import { SidenavService } from '@fury/layout';
-import { ThemeService } from '@fury/core';
+import { ThemeService } from '@fury/layout';
 
 import { SplashScreenService } from '@fury/core';
 

@@ -2,9 +2,10 @@ import { Component, HostBinding, HostListener, Input, OnDestroy, OnInit } from '
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+
 import { SidenavItem } from './sidenav-item/sidenav-item.interface';
 import { SidenavService } from './sidenav.service';
-import { ThemeService } from '@fury/core';
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'fury-sidenav',

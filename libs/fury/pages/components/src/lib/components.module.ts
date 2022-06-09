@@ -23,7 +23,7 @@ import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { SliderComponent } from './slider/slider.component';
 import { SnackBarComponent } from './snack-bar/snack-bar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
-import { FurySharedModule } from '../../../@fury/fury-shared.module';
+import { FurySharedModule } from '@fury/core'
 
 @NgModule({
   imports: [

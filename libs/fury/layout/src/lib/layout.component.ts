@@ -1,10 +1,11 @@
-import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { SidebarDirective } from '@fury/core';
-import { SidenavService } from './sidenav/sidenav.service';
-import { filter, map, startWith } from 'rxjs/operators';
-import { ThemeService } from '@fury/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { checkRouterChildsData } from '../../@fury/utils/check-router-childs-data';
+import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { filter, map, startWith } from 'rxjs/operators';
+
+import { checkRouterChildsData } from './utils';
+import { SidebarDirective } from './sidebar';
+import { SidenavService } from './sidenav/sidenav.service';
+import { ThemeService } from './services/theme.service';
 
 @Component({
   selector: 'fury-layout',

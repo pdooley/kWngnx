@@ -1,6 +1,7 @@
 import { Component, EventEmitter, HostBinding, Input, OnInit, Output } from '@angular/core';
 import { map } from 'rxjs/operators';
-import { ThemeService } from '@fury/core';
+
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'fury-toolbar',

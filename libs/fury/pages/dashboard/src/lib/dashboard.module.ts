@@ -15,7 +15,7 @@ import { SalesSummaryWidgetModule } from './widgets/sales-summary-widget/sales-s
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { DashboardService } from './dashboard.service';
-import { FurySharedModule } from '../../../@fury/fury-shared.module';
+import { FurySharedModule } from '@fury/core'
 
 @NgModule({
   imports: [

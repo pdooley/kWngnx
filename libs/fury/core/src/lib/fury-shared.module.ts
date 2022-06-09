@@ -14,7 +14,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BreadcrumbsModule } from './shared/breadcrumbs/breadcrumbs.module';
 import { TitleModule } from './shared/title/title.module';
 import { PageModule } from './shared/page/page.module';
-import { SidebarModule } from './shared/sidebar/sidebar.module';
 import { RouterModule } from '@angular/router';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { PageLayoutModule } from './shared/page-layout/page-layout.module';
@@ -28,7 +27,6 @@ import { PageLayoutModule } from './shared/page-layout/page-layout.module';
     BreadcrumbsModule,
     TitleModule,
     PageModule,
-    SidebarModule,
     RouterModule,
     PageLayoutModule,
 

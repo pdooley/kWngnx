@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { BlankRoutingModule } from './blank-routing.module';
 import { BlankComponent } from './blank.component';
-import { FurySharedModule } from '../../../@fury/fury-shared.module';
+import { FurySharedModule } from '@fury/core'
 
 @NgModule({
   imports: [
