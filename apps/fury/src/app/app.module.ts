@@ -21,6 +21,9 @@ import { PendingInterceptorModule } from '@fury/core/loading-indicator';
     BrowserAnimationsModule,
     HttpClientModule,
 
+    // Angular Material Modules
+    MaterialModule
+
     // Fury Core Modules
     AppRoutingModule,
 
