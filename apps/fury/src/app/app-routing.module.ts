@@ -54,7 +54,7 @@ const routes: Routes = [
       },
       {
         path: 'icons',
-        loadChildren: () => import('@fury/pages/icons).then(m => m.IconsModule),
+        loadChildren: () => import('@fury/pages/icons').then(m => m.IconsModule),
       },
       {
         path: 'page-layouts',

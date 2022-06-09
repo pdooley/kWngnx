@@ -24,7 +24,7 @@
     "fury-pages-level5":  "libs/fury/pages/level5",
     "fury-pages-maps-google-maps":  "libs/fury/pages/maps/google-maps",
     "fury-pages-tables-all-in-one-table": "libs/fury/pages/tables/all-in-one-table",
-    "fury-pages-page-layout": "libs/fury/pages/page-layout",
+    "fury-pages-page-layouts": "libs/fury/pages/page-layouts",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "kw-base-bs": "libs/kw/base/bs",
