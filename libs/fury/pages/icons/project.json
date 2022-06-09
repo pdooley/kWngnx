@@ -1,23 +1,23 @@
 {
   "projectType": "library",
-  "root": "libs/fury/pages/icon",
-  "sourceRoot": "libs/fury/pages/icon/src",
+  "root": "libs/fury/pages/icons",
+  "sourceRoot": "libs/fury/pages/icons/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/pages/icon/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/pages/icons/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/pages/icon/jest.config.js",
+        "jestConfig": "libs/fury/pages/icons/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/pages/icon"]
+      "outputs": ["coverage/libs/fury/pages/icons"]
     }
   }
 }
