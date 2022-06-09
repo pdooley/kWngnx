@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
-import { fadeInRightAnimation } from '../../../@fury/animations/fade-in-right.animation';
-import { fadeInUpAnimation } from '../../../@fury/animations/fade-in-up.animation';
+import { fadeInRightAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-icons',

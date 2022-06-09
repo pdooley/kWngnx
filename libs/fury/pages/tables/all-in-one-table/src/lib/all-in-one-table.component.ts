@@ -9,8 +9,8 @@ import { ListColumn } from '../../../../@fury/shared/list/list-column.model';
 import { ALL_IN_ONE_TABLE_DEMO_DATA } from './all-in-one-table.demo';
 import { CustomerCreateUpdateComponent } from './customer-create-update/customer-create-update.component';
 import { Customer } from './customer-create-update/customer.model';
-import { fadeInRightAnimation } from '../../../../@fury/animations/fade-in-right.animation';
-import { fadeInUpAnimation } from '../../../../@fury/animations/fade-in-up.animation';
+import { fadeInRightAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-all-in-one-table',

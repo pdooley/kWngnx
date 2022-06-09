@@ -17,8 +17,8 @@ import { SliderComponent } from './slider/slider.component';
 import { SnackBarComponent } from './snack-bar/snack-bar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { ScrollbarComponent } from '../../../@fury/shared/scrollbar/scrollbar.component';
-import { fadeInUpAnimation } from '../../../@fury/animations/fade-in-up.animation';
-import { fadeInRightAnimation } from '../../../@fury/animations/fade-in-right.animation';
+import { fadeInUpAnimation } from '@fury/core';
+import { fadeInRightAnimation } from '@fury/core';
 import { ScrollDispatcher } from '@angular/cdk/scrolling';
 
 @Component({

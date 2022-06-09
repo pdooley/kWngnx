@@ -1,9 +1,9 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { fadeInRightAnimation } from '../../../../@fury/animations/fade-in-right.animation';
-import { scaleInAnimation } from '../../../../@fury/animations/scale-in.animation';
-import { fadeInUpAnimation } from '../../../../@fury/animations/fade-in-up.animation';
+import { fadeInRightAnimation } from '@fury/core';
+import { scaleInAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-form-wizard',

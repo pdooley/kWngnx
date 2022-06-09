@@ -1,7 +1,7 @@
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { Component, OnInit } from '@angular/core';
-import { fadeInRightAnimation } from '../../../@fury/animations/fade-in-right.animation';
-import { fadeInUpAnimation } from '../../../@fury/animations/fade-in-up.animation';
+import { fadeInRightAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core';
 
 export interface Task {
   name: string;

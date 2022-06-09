@@ -1,4 +1,4 @@
-export class SidenavItem {
+export interface SidenavItem {
   name: string;
   icon?: string;
   routeOrFunction?: any;

@@ -1,8 +1,8 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import escape from 'lodash-es/escape';
-import { fadeInUpAnimation } from '../../../../@fury/animations/fade-in-up.animation';
-import { fadeInRightAnimation } from '../../../../@fury/animations/fade-in-right.animation';
+import { fadeInUpAnimation } from '@fury/core';
+import { fadeInRightAnimation } from '@fury/core';
 
 @Component({
   selector: 'fury-form-elements',

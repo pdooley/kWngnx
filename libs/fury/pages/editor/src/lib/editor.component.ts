@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { fadeInUpAnimation } from '../../../@fury/animations/fade-in-up.animation';
-import { fadeInRightAnimation } from '../../../@fury/animations/fade-in-right.animation';
-import { scaleInAnimation } from '../../../@fury/animations/scale-in.animation';
+import { fadeInUpAnimation } from '@fury/core';
+import { fadeInRightAnimation } from '@fury/core';
+import { scaleInAnimation } from '@fury/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
