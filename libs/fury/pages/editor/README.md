@@ -1,10 +1,10 @@
-# fury-pages-coming-soon
+# fury-pages-editor
 
 This library was generated with [Nx](https://nx.dev).
 
 
 ## Running unit tests
 
-Run `nx test fury-pages-coming-soon` to execute the unit tests via [Jest](https://jestjs.io).
+Run `nx test fury-pages-editor` to execute the unit tests via [Jest](https://jestjs.io).
 
 
