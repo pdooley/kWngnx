@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Theme, ThemeService } from '@fury/core';
 import { MatCheckboxChange } from '@angular/material/checkbox';
 import { MatRadioChange } from '@angular/material/radio';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
-import { SidenavService } from '../sidenav/sidenav.service';
 import { map } from 'rxjs/operators';
+
+import { SidenavService } from '../sidenav/sidenav.service';
+import { Theme, ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'fury-config-panel',
