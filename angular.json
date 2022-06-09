@@ -36,7 +36,6 @@
     "fury-layout-toolbar-search-bar": "libs/fury/layout-toolbar-search-bar",
     "fury-layout-toolbar-sidenav-mobile-toggle": "libs/fury/layout-toolbar-sidenav-mobile-toggle",
     "fury-layout-toolbar-user": "libs/fury/layout-toolbar-user",
-    "fury-layout-toolbar-notifications": "libs/fury/layout-toolbar-notifications",
     "fury-pages-apps-calendar": "libs/fury/pages/apps/calendar",
     "fury-pages-apps-chat": "libs/fury/pages/apps/inbox",
     "fury-pages-apps-inbox": "libs/fury/pages/apps/inbox",
