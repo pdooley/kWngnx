@@ -1,22 +1,22 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/fury/core/toolbar/toolbar-user/src",
+  "sourceRoot": "libs/fury/layout/toolbar/toolbar-user/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/core/toolbar/toolbar-user/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/layout/toolbar/toolbar-user/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/core/toolbar/toolbar-user/jest.config.js",
+        "jestConfig": "libs/fury/layout/toolbar/toolbar-user/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/core/toolbar/toolbar-user"]
+      "outputs": ["coverage/libs/fury/layout/toolbar/toolbar-user"]
     }
   }
 }

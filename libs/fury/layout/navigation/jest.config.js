@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-core-navigation',
+  displayName: 'fury-layout-navigation',
   preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../coverage/libs/fury/core/navigation'
+  coverageDirectory: '../../../../coverage/libs/fury/layout/navigation'
 };

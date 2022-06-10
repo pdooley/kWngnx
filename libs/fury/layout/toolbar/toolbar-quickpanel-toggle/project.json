@@ -1,22 +1,22 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/fury/core/toolbar/toolbar-quickpanel-toggle/src",
+  "sourceRoot": "libs/fury/layout/toolbar/toolbar-quickpanel-toggle/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/core/toolbar/toolbar-quickpanel-toggle/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/layout/toolbar/toolbar-quickpanel-toggle/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/core/toolbar/toolbar-quickpanel-toggle/jest.config.js",
+        "jestConfig": "libs/fury/layout/toolbar/toolbar-quickpanel-toggle/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/core/toolbar/toolbar-quickpanel-toggle"]
+      "outputs": ["coverage/libs/fury/layout/toolbar/toolbar-quickpanel-toggle"]
     }
   }
 }

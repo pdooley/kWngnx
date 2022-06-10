@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fury-core-sidenav',
+  displayName: 'fury-layout-sidenav',
   preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../coverage/libs/fury/core/sidenav'
+  coverageDirectory: '../../../../coverage/libs/fury/layout/sidenav'
 };

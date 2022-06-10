@@ -1,22 +1,22 @@
 {
   "projectType": "library",
-  "sourceRoot": "libs/fury/core/sidebar/src",
+  "sourceRoot": "libs/fury/layout/sidebar/src",
   "tags": [],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fury/core/sidebar/**/*.ts"]
+        "lintFilePatterns": ["libs/fury/layout/sidebar/**/*.ts"]
       },
       "outputs": ["{options.outputFile}"]
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "options": {
-        "jestConfig": "libs/fury/core/sidebar/jest.config.js",
+        "jestConfig": "libs/fury/layout/sidebar/jest.config.js",
         "passWithNoTests": true
       },
-      "outputs": ["coverage/libs/fury/core/sidebar"]
+      "outputs": ["coverage/libs/fury/layout/sidebar"]
     }
   }
 }
