@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$':  'ts-jest'
   },
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../../coverage/libs/fury/forms/form-elements'
+  coverageDirectory: '../../../../../coverage/libs/fury/pages/forms/form-elements'
 };
