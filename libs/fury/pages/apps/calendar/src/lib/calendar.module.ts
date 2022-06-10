@@ -4,8 +4,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/moment';
 import * as moment from 'moment';
-import { MaterialModule } from '@fury/core';
-import { ScrollbarModule } from '@fury/core';
+
+import { ScrollbarModule } from '@fury/core/scrollbar';
 import { CalendarEditComponent } from './calendar-edit/calendar-edit.component';
 import { CalendarRoutingModule } from './calendar-routing.module';
 import { CalendarComponent } from './calendar.component';
@@ -19,7 +19,6 @@ export function momentAdapterFactory() {
     CommonModule,
     CalendarRoutingModule,
     ReactiveFormsModule,
-    MaterialModule,
     CalendarModule.forRoot({
       provide: DateAdapter,
       useFactory: momentAdapterFactory

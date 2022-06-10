@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 
-import { fadeInUpAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core/animations';
 
 @Component({
   selector: 'fury-login',

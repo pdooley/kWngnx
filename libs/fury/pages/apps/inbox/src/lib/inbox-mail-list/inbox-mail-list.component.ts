@@ -2,7 +2,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { componentDestroyed } from '@fury/core';
+
+import { componentDestroyed } from '@fury/core/shared';
 import { InboxService } from '../inbox.service';
 import { Mail } from '../shared/mail.interface';
 
