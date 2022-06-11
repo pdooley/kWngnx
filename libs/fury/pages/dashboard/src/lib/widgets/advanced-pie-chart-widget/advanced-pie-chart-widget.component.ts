@@ -2,7 +2,8 @@ import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import * as Chart from 'chart.js';
 import { ChartData, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
-import { defaultChartOptions } from '@fury/core';
+
+import { defaultChartOptions } from '@fury/core/chart-widget';
 import { AdvancedPieChartWidgetOptions } from './advanced-pie-chart-widget-options.interface';
 
 @Component({

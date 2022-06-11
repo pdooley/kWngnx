@@ -35,6 +35,7 @@
       "@fury/core/scrollbar": ["libs/fury/core/scrollbar/src/index.ts"],
       "@fury/core/shared": ["libs/fury/core/shared/src/index.ts"],
       "@fury/core/title": ["libs/fury/core/title/src/index.ts"],
+      "@fury/layout": ["libs/fury/layout/layout/src/index.ts"],
       "@fury/layout/config-panel": ["libs/fury/layout/config-panel/src/index.ts"],
       "@fury/layout/footer": ["libs/fury/layout/footer/src/index.ts"],
       "@fury/layout/navigation": ["libs/fury/layout/navigation/src/index.ts"],

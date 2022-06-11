@@ -1,6 +1,6 @@
 import * as moment from 'moment';
-import { Color } from '../apps/inbox/shared/color.interface';
-import { Mail } from '../apps/inbox/shared/mail.interface';
+import { Color } from '@fury/pages/apps/inbox';
+import { Mail } from '@fury/pages/apps/inbox';
 
 export const labelColors: Color[] = [
   {

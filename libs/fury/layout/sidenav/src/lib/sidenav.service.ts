@@ -1,15 +1,18 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { MediaObserver } from '@angular/flex-layout';
+
+import { BehaviorSubject } from 'rxjs';
+import { filter, map, takeUntil } from 'rxjs/operators';
+
 import each from 'lodash-es/each';
 import isArray from 'lodash-es/isArray';
 import isEqual from 'lodash-es/isEqual';
 import keys from 'lodash-es/keys';
 import sortBy from 'lodash-es/sortBy';
-import { BehaviorSubject } from 'rxjs';
-import { SidenavItem } from './sidenav-item/sidenav-item.interface';
-import { filter, map, takeUntil } from 'rxjs/operators';
+
 import { componentDestroyed } from '@fury/core/shared';
-import { MediaObserver } from '@angular/flex-layout';
+import { SidenavItem } from './sidenav-item/sidenav-item.interface';
 
 @Injectable()
 export class SidenavService implements OnDestroy {
