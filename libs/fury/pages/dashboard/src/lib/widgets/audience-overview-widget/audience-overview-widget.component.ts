@@ -4,7 +4,7 @@ import * as Chart from 'chart.js';
 import { ChartData, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
 import { BehaviorSubject } from 'rxjs';
-import { defaultChartOptions } from '@fury/core';
+import { defaultChartOptions } from '@fury/core/chart-widget';
 import { AudienceOverviewWidgetOptions } from './audience-overview-widget-options.interface';
 
 @Component({

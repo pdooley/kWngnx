@@ -5,7 +5,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Observable, ReplaySubject } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { ListColumn } from '@fury/core';
+import { ListColumn } from '@fury/core/list';
 
 @Component({
   selector: 'fury-recent-sales-widget-table',

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from '@fury/core/layout';
+import { LayoutComponent } from '@fury/layout';
 
 const routes: Routes = [
   {

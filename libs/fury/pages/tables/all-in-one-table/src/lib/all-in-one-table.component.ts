@@ -5,12 +5,12 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Observable, of, ReplaySubject } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { ListColumn } from '@fury/core';
+import { ListColumn } from '@fury/core/list';
 import { ALL_IN_ONE_TABLE_DEMO_DATA } from './all-in-one-table.demo';
 import { CustomerCreateUpdateComponent } from './customer-create-update/customer-create-update.component';
 import { Customer } from './customer-create-update/customer.model';
-import { fadeInRightAnimation } from '@fury/core';
-import { fadeInUpAnimation } from '@fury/core';
+import { fadeInRightAnimation } from '@fury/core/animations';
+import { fadeInUpAnimation } from '@fury/core/animations';
 
 @Component({
   selector: 'fury-all-in-one-table',

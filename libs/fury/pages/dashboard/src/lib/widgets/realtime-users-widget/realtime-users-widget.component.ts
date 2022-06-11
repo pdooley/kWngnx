@@ -1,9 +1,11 @@
 import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, Input, ViewChild } from '@angular/core';
+
 import * as Chart from 'chart.js';
 import { ChartConfiguration, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
 import { Observable } from 'rxjs';
-import { defaultChartOptions } from '@fury/core';
+
+import { defaultChartOptions } from '@fury/core/chart-widget';
 import { RealtimeUsersWidgetData, RealtimeUsersWidgetPages } from './realtime-users-widget.interface';
 
 @Component({

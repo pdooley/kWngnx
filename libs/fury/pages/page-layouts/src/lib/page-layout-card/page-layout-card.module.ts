@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { PageLayoutCardRoutingModule } from './page-layout-card-routing.module';
 import { PageLayoutCardComponent } from './page-layout-card.component';
-import { FurySharedModule } from '../../../../@fury/fury-shared.module';
+import { FurySharedModule } from '@fury/core/shared';
 import { PageLayoutDemoContentModule } from '../components/page-layout-content/page-layout-demo-content.module';
-import { FuryCardModule } from '@fury/core';
+import { FuryCardModule } from '@fury/core/card';
 
 @NgModule({
   declarations: [PageLayoutCardComponent],

@@ -8,7 +8,7 @@ import { MAT_SNACK_BAR_DEFAULT_OPTIONS, MatSnackBarConfig } from '@angular/mater
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LayoutModule } from '@fury/core/layout';
+import { LayoutModule } from '@fury/layout';
 import { MaterialModule } from '@fury/core/material';
 import { SidenavModule } from '@fury/layout/sidenav';
 

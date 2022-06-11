@@ -1,10 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { LoadingOverlayModule } from '@fury/core';
-import { MaterialModule } from '@fury/core';
-import { BarChartWidgetComponent } from './bar-chart-widget.component';
-import { FuryCardModule } from '@fury/core';
+
 import { ChartsModule } from 'ng2-charts';
+
+import { LoadingOverlayModule } from '@fury/core/loading-overlay';
+import { MaterialModule } from '@fury/core/material';
+import { BarChartWidgetComponent } from './bar-chart-widget.component';
+import { FuryCardModule } from '@fury/core/card';
 
 @NgModule({
   imports: [

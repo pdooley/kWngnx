@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { ChartData, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
-import { defaultChartOptions } from '@fury/core';
-import { ListColumn } from '@fury/core';
+import { defaultChartOptions } from '@fury/core/chart-widget';
+import { ListColumn } from '@fury/core/list';
 import { RecentSalesWidgetOptions } from './recent-sales-widget-options.interface';
 
 @Component({

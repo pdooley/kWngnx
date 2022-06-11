@@ -1,11 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { FuryCardModule } from '@fury/core';
-import { LoadingOverlayModule } from '@fury/core';
-import { MaterialModule } from '@fury/core';
-import { AudienceOverviewWidgetComponent } from './audience-overview-widget.component';
+
 import { ChartsModule } from 'ng2-charts';
+
+import { FuryCardModule } from '@fury/core/card';
+import { LoadingOverlayModule } from '@fury/core/loading-overlay';
+import { MaterialModule } from '@fury/core/material';
+import { AudienceOverviewWidgetComponent } from './audience-overview-widget.component';
 
 @NgModule({
   imports: [

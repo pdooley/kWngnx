@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FuryCardModule } from '@fury/core';
-import { MaterialModule } from '@fury/core';
+import { FuryCardModule } from '@fury/core/card';
+import { MaterialModule } from '@fury/core/material';
 import { RealtimeUsersWidgetComponent } from './realtime-users-widget.component';
-import { ScrollbarModule } from '@fury/core';
+import { ScrollbarModule } from '@fury/core/scrollbar';
 
 @NgModule({
   imports: [

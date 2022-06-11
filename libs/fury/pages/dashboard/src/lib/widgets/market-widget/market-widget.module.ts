@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MaterialModule } from '@fury/core';
+
+import { MaterialModule } from '@fury/core/material';
 import { MarketWidgetComponent } from './market-widget.component';
 
 @NgModule({

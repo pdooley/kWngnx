@@ -1,8 +1,10 @@
 import { Component, Input } from '@angular/core';
+
 import { ChartData, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
-import { defaultChartOptions } from '@fury/core';
-import { ChartWidgetOptions } from '@fury/core';
+
+import { defaultChartOptions } from '@fury/core/chart-widget';
+import { ChartWidgetOptions } from '@fury/core/chart-widget';
 
 @Component({
   selector: 'fury-line-chart-widget',
