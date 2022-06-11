@@ -1,4 +1,4 @@
-export class ChartWidgetOptions {
+export interface ChartWidgetOptions {
   title: string;
   gain?: number | string;
   subTitle?: string;

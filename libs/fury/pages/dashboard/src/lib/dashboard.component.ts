@@ -11,7 +11,7 @@ import { RealtimeUsersWidgetData, RealtimeUsersWidgetPages } from './widgets/rea
 import { RecentSalesWidgetOptions } from './widgets/recent-sales-widget/recent-sales-widget-options.interface';
 import { SalesSummaryWidgetOptions } from './widgets/sales-summary-widget/sales-summary-widget-options.interface';
 import { DashboardService } from './dashboard.service';
-import { ChartWidgetOptions } from '@fury/core';
+import { ChartWidgetOptions } from '@fury/core/chart-widget';
 
 @Component({
   selector: 'fury-dashboard',

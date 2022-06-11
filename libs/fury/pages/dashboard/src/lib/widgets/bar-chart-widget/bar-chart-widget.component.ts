@@ -2,7 +2,7 @@ import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import * as Chart from 'chart.js';
 import { ChartData, ChartOptions } from 'chart.js';
 import defaultsDeep from 'lodash-es/defaultsDeep';
-import { defaultChartOptions } from '@fury/core';
+import { defaultChartOptions } from '@fury/core/chart-widget';
 import { BarChartWidgetOptions } from './bar-chart-widget-options.interface';
 
 @Component({

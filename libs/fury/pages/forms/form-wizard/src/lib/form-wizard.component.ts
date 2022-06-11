@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { fadeInRightAnimation } from '@fury/core/animations';
-import { scaleInAnimation } from '@fury/core';
+import { scaleInAnimation } from '@fury/core/animations';
 import { fadeInUpAnimation } from '@fury/core/animations';
 
 @Component({

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BreadcrumbsModule } from '@fury/core/breadcrumbs';
 import { FuryCardModule } from '@fury/core/card';
-import { HighlightModule } from '@fury/core';
+import { HighlightModule } from '@fury/core/highlightjs';
 import { MaterialModule } from '@fury/core/material';
 import { FormElementsRoutingModule } from './form-elements-routing.module';
 import { FormElementsComponent } from './form-elements.component';
