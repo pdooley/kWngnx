@@ -46,6 +46,7 @@
     "fury-pages-coming-soon": "libs/fury/pages/coming-soon",
     "fury-pages-components": "libs/fury/pages/components",
     "fury-pages-dashboard": "libs/fury/pages/dashboard",
+    "fury-pages-demo-data": "libs/fury/pages/demo-data",
     "fury-pages-drag-and-drop": "libs/fury/pages/drag-and-drop",
     "fury-pages-editor": "libs/fury/pages/editor",
     "fury-pages-forms-form-elements": "libs/fury/pages/forms/form-elements",

@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { inboxMails, labelColors } from '../../demo-data/inbox-demo-data';
+
+import { inboxMails, labelColors } from '@fury/pages/demo-data';
 import { MailLabel } from './shared/mail-label.interface';
 import { Mail } from './shared/mail.interface';
 

@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/fury/pages/demo-data/src",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/fury/pages/demo-data/**/*.ts"]
+      },
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/fury/pages/demo-data/jest.config.js",
+        "passWithNoTests": true
+      },
+      "outputs": ["coverage/libs/fury/pages/demo-data"]
+    }
+  }
+}
