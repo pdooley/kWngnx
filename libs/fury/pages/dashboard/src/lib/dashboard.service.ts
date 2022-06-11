@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { ChartData } from 'chart.js';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { environment } from '../../../environments/environment';
+import { environment } from '@fury';
 import {
   advancedPieChartDemoLabels,
   advancedPieChartDemoValues,
@@ -33,7 +33,7 @@ import {
   top5CategoriesDemoData,
   visitsChartDemoLabels,
   visitsChartDemoValues
-} from '../demo-data/widget-demo-data';
+} from '@fury/pages/demo-data';
 
 /**
  * @class DashboardService

@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@dw": ["libs/demo/src/index.ts"],
-      "@fury": ["app/fury/src/index.ts"],
+      "@fury": ["apps/fury/src/index.ts"],
       "@fury/core/animations": ["libs/fury/core/animations/src/index.ts"],
       "@fury/core/backdrop": ["libs/fury/core/backdrop/src/index.ts"],
       "@fury/core/breadcrumbs": ["libs/fury/core/breadcrumbs/src/index.ts"],

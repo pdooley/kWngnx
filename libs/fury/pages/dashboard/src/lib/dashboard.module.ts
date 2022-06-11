@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MaterialModule } from '@fury/core';
+import { MaterialModule } from '@fury/core/material';
 import { AdvancedPieChartWidgetModule } from './widgets/advanced-pie-chart-widget/advanced-pie-chart-widget.module';
 import { AudienceOverviewWidgetModule } from './widgets/audience-overview-widget/audience-overview-widget.module';
 import { BarChartWidgetModule } from './widgets/bar-chart-widget/bar-chart-widget.module';
@@ -15,7 +15,7 @@ import { SalesSummaryWidgetModule } from './widgets/sales-summary-widget/sales-s
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { DashboardService } from './dashboard.service';
-import { FurySharedModule } from '@fury/core'
+import { FurySharedModule } from '@fury/core/shared'
 
 @NgModule({
   imports: [
