@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { SidenavItem } from '../../sidenav/sidenav-item/sidenav-item.interface';
-import { SidenavService } from '../../sidenav/sidenav.service';
+
+import { SidenavItem } from '@fury/layout/sidenav';
+import { SidenavService } from '@fury/layout/sidenav';
 
 @Component({
   selector: 'fury-toolbar-search-bar',

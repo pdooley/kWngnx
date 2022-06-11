@@ -7,7 +7,7 @@ import isEqual from 'lodash-es/isEqual';
 import keys from 'lodash-es/keys';
 import sortBy from 'lodash-es/sortBy';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
-import { MediaQueryService } from '../common/mediareplay/media-replay.service';
+import { MediaQueryService } from '@fury/core/mediareplay';
 import { SidenavItem } from './sidenav-item/sidenav-item.interface';
 import { SidenavState } from './sidenav-state.enum';
 

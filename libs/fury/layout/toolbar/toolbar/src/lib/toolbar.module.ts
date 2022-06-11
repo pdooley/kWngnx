@@ -6,15 +6,15 @@ import { RouterModule } from '@angular/router';
 import { FuryCardModule } from '@fury/core/card';
 import { ClickOutsideModule } from '@fury/core/click-outside';
 import { ScrollbarModule } from '@fury/core/scrollbar';
-import { ToolbarFullscreenTogglerModule } from '@fury/layout/toolbar-fullscreen-toggle';
-import { ToolbarNotificationsModule } from '@fury/layout/toolbar-notifications';
-import { ToolbarQuickpanelTogglerModule } from '@fury/layout/toolbar-quickpanel-toggle';
-import { ToolbarSearchBarrModule } from '@fury/layout/toolbar-search-bar';
-import { ToolbarSearchModule } from '@fury/layout/toolbar-search';
-import { ToolbarSidenavMobileToggleModule } from '@fury/layout/toolbar-sidenav-mobile-toggle';
-import { ToolbarUserModule } from '@fury/layout/toolbar-user';
-
 import { ToolbarComponent } from './toolbar.component';
+import { ToolbarFullscreenToggleComponent } from '@fury/layout/toolbar-fullscreen-toggle';
+import { ToolbarNotificationsComponent } from '@fury/layout/toolbar-notifications';
+import { ToolbarQuickpanelToggleComponent } from '@fury/layout/toolbar-quickpanel-toggle';
+import { ToolbarSearchBarComponent } from '@fury/layout/toolbar-search-bar';
+import { ToolbarSearchComponent } from '@fury/layout/toolbar-search';
+import { ToolbarSidenavMobileToggleComponent } from '@fury/layout/toolbar-sidenav-mobile-toggle';
+import { ToolbarUserComponent } from '@fury/layout/toolbar-user';
+
 
 @NgModule({
   imports: [
@@ -25,7 +25,6 @@ import { ToolbarComponent } from './toolbar.component';
     FormsModule,
     ClickOutsideModule,
     FuryCardModule,
-    ToolbarUserModule
   ],
   declarations: [
     ToolbarComponent,
@@ -35,7 +34,8 @@ import { ToolbarComponent } from './toolbar.component';
     ToolbarSearchBarComponent,
     ToolbarQuickpanelToggleComponent,
     ToolbarFullscreenToggleComponent,
-    ToolbarSidenavMobileToggleComponent
+    ToolbarSidenavMobileToggleComponent,
+    ToolbarUserComponent
   ],
   exports: [ToolbarComponent]
 })

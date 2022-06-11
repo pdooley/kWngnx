@@ -29,6 +29,7 @@
       "@fury/core/loading-indicator": ["libs/fury/core/loading-indicator/src/index.ts"],
       "@fury/core/loading-overlay": ["libs/fury/core/loading-overlay/src/index.ts"],
       "@fury/core/material": ["libs/fury/core/material/src/index.ts"],
+      "@fury/core/mediareplay": ["libs/fury/core/mediareplay/src/index.ts"],
       "@fury/core/page": ["libs/fury/core/page/src/index.ts"],
       "@fury/core/page-layout": ["libs/fury/core/page-layout/src/index.ts"],
       "@fury/core/scrollbar": ["libs/fury/core/scrollbar/src/index.ts"],
