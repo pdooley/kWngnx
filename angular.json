@@ -15,6 +15,7 @@
     "fury-core-loading-indicator": "libs/fury/core/loading-indicator",
     "fury-core-loading-overlay": "libs/fury/core/loading-overlay",
     "fury-core-material": "libs/fury/core/material",
+    "fury-core-mediareplay": "libs/fury/core/mediareplay",
     "fury-core-page": "libs/fury/core/page",
     "fury-core-page-layout": "libs/fury/core/page-layout",
     "fury-core-scrollbar": "libs/fury/core/scrollbar",
