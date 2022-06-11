@@ -1,2 +1,2 @@
-export * from './scrollbar.component';
-export * from './scrollbar.module';
+export * from './loading-overlay.component';
+export * from './loading-overlay.module';

@@ -1,15 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BreadcrumbsModule } from '@fury/core';
-import { HighlightModule } from '@fury/core';
-import { MaterialModule } from '@fury/core';
-import { ScrollbarModule } from '@fury/core';
+
+import { BreadcrumbsModule } from '@fury/core/breadcrumbs';
+import { ComponentsRoutingModule } from './components-routing.module';
+import { FurySharedModule } from '@fury/core/shared'
+import { HighlightModule } from '@fury/core/highlightjs';
+import { MaterialModule } from '@fury/core/material';
+import { ScrollbarModule } from '@fury/core/scrollbar';
+
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
-import { ComponentsRoutingModule } from './components-routing.module';
 import { ComponentsComponent } from './components.component';
 import { DemoDialogComponent, DialogsComponent } from './dialogs/dialogs.component';
 import { GridListComponent } from './grid-list/grid-list.component';
@@ -23,7 +26,6 @@ import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { SliderComponent } from './slider/slider.component';
 import { SnackBarComponent } from './snack-bar/snack-bar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
-import { FurySharedModule } from '@fury/core'
 
 @NgModule({
   imports: [
