@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { LayoutService } from '../../layout/layout.service';
+import { LayoutService } from '@fury/layout/layout.service';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { CardsComponent } from './cards/cards.component';
@@ -16,9 +16,9 @@ import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { SliderComponent } from './slider/slider.component';
 import { SnackBarComponent } from './snack-bar/snack-bar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
-import { ScrollbarComponent } from '@fury/core';
-import { fadeInUpAnimation } from '@fury/core';
-import { fadeInRightAnimation } from '@fury/core';
+import { ScrollbarComponent } from '@fury/core/scrollbar';
+import { fadeInUpAnimation } from '@fury/core/animations';
+import { fadeInRightAnimation } from '@fury/core/animations';
 import { ScrollDispatcher } from '@angular/cdk/scrolling';
 
 @Component({

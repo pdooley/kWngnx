@@ -4,7 +4,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faPinterest } from '@fortawesome/free-brands-svg-icons/faPinterest';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
-import { fadeInUpAnimation } from '@fury/core';
+import { fadeInUpAnimation } from '@fury/core/animations';
 
 @Component({
   selector: 'fury-coming-soon',

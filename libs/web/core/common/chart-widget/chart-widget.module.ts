@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MaterialModule } from '../material-components.module';
+import { MaterialModule } from '@fury/core/material';
 import {
   FuryChartWidget,
   FuryChartWidgetContent,
