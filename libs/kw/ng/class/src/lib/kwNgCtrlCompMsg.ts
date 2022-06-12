@@ -20,7 +20,7 @@ import { Output }               from '@angular/core';
 import { Router }               from "@angular/router";
 import { SimpleChange }         from '@angular/core';
 import { SimpleChanges }        from '@angular/core';
-import { Subscription }         from 'rxjs/Subscription';
+import { Subscription }         from 'rxjs';
 
 import { AppInjector }          from '@app/appInjector';
 

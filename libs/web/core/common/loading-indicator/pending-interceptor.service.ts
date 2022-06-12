@@ -4,7 +4,7 @@ import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Rout
 import 'rxjs/add/observable/throw';
 import { Observable } from 'rxjs/Observable';
 import { catchError, finalize, map } from 'rxjs/operators';
-import { ReplaySubject } from 'rxjs/ReplaySubject';
+import { ReplaySubject } from 'rxjs';
 
 @Injectable()
 export class PendingInterceptorService implements HttpInterceptor {

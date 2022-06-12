@@ -1,8 +1,8 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { timer } from 'rxjs/observable/timer';
+import { timer } from 'rxjs/operators';
 import { debounce } from 'rxjs/operators';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 import { PendingInterceptorService } from './pending-interceptor.service';
 
 @Component({

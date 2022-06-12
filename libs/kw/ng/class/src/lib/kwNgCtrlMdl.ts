@@ -14,7 +14,7 @@
 //@formatter:off
 import { OnInit }           from '@angular/core';
 import { OnDestroy }	    from '@angular/core';
-import { Subscription }	    from 'rxjs/Subscription';
+import { Subscription }	    from 'rxjs';
 
 import { kwCtrlMdl }        from "@kw/base/ctrl";
 import { kwStDataMap }      from "@kw/base/state";

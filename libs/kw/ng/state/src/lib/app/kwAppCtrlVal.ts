@@ -16,7 +16,7 @@ import { Component }            from "@angular/core";
 import { OnInit }               from '@angular/core';
 import { OnDestroy }            from '@angular/core';
 import { Router }                from '@angular/router';
-import { Subscription }            from 'rxjs/Subscription';
+import { Subscription }            from 'rxjs';
 
 import { kw }                   from "@kw/base/core"
 import { kwApisList }           from "@kw/ng/state";

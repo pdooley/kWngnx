@@ -2,7 +2,7 @@ import { AfterViewInit, Component, Input, OnInit, ViewChild } from '@angular/cor
 import { MatDialog, MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import { Observable } from 'rxjs/Observable';
 import { filter } from 'rxjs/operators';
-import { ReplaySubject } from 'rxjs/ReplaySubject';
+import { ReplaySubject } from 'rxjs';
 import { ListColumn } from '../../../common/list/list-column.model';
 
 @Component({

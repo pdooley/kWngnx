@@ -15,7 +15,7 @@
 import {Component }    from "@angular/core";
 import {OnInit }       from '@angular/core';
 import {OnDestroy }    from '@angular/core';
-import {Subscription } from 'rxjs/Subscription';
+import {Subscription } from 'rxjs';
 
 import {kwBS }         from "@kw/base/class";
 import {kwBSCredVal }  from "./kwBSCredVal";
