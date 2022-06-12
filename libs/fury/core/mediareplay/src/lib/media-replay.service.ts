@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { MediaChange, ObservableMedia } from '@angular/flex-layout';
+import { MediaChange, MediaObserver } from '@angular/flex-layout';
 import { Observable } from 'rxjs';
 import { ReplaySubject } from 'rxjs';
 
 @Injectable()
 export class MediaQueryService {
 
-  constructor(media: ObservableMedia) {
+  constructor(media: MediaObserver) {
     media.asObservable()
       .subscribe(res => this._changes$.next(res), err => this._changes$.error(err), () => this._changes$.complete());
 

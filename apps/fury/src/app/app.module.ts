@@ -22,7 +22,7 @@ import { PendingInterceptorModule } from '@fury/core/loading-indicator';
     HttpClientModule,
 
     // Angular Material Modules
-    MaterialModule
+    MaterialModule,
 
     // Fury Core Modules
     AppRoutingModule,
